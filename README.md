@@ -1,4 +1,4 @@
-# Algebrica
+# README
 
 [Algebrica](https://algebrica.org) is a free, ad-free, university-level mathematics knowledge base. This repository hosts the source content of the entries published on the site, released progressively in Markdown format and reusable under a non-commercial license.
 
@@ -14,7 +14,9 @@ The editorial aim is to reduce without distorting. University sources are often 
 
 The process is iterative. A page that seems complete may be revisited as adjacent entries develop, and inconsistencies in notation or depth often prompt further revision. Entries are progressively released and updated here on GitHub.
 
-To increase transparency, the editorial process itself is documented on the site, and a quality indicator is visible on some pages, including a [GPTZero](https://gptzero.me/) score (not affiliated) as an additional signal of transparency.
+To increase transparency, I am also documenting the editorial process and revising content to improve accuracy and reliability. On some pages a quality indicator is now visible, including a [GPTZero](https://gptzero.me/) score (no affiliation), as an additional signal of transparency. The score, expressed as a percentage, represents the system’s level of confidence that the content is human. For example, a score of 92% means that the text is considered human with 92% confidence.
+
+Since I am not a native English speaker, I also rely on [Grammarly](https://www.grammarly.com/) (no affiliation) to support the proofreading of the texts.
 
 ## Repository structure
 
