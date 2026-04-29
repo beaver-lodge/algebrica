@@ -27,7 +27,7 @@ Unlike permutations, where order matters, the pairs \\((p,q)\\) and \\((q,p)\\) 
 - - -
 ## Pascal's triangle
 
-Pascal's triangle is a visual representation of binomial coefficients. In short, it is a geometric arrangement of binomial coefficients, which are the coefficients in the expansion of the [binomial](../binomials/) \\( (a + b) \\) raised to any power \\( n \\). The triangle is built using the following rules. The first row contains only 1. Each number in the subsequent rows is the sum of the two numbers directly above it. The outermost elements are always 1. Here are the first six rows:
+Pascal's triangle is a triangular arrangement of binomial coefficients, the coefficients that appear in the expansion of the [binomial](../binomial/) \\((a+b)\\) raised to a non-negative integer power \\(n\\). The first row contains only \\(1\\), and each number in the subsequent rows is the sum of the two numbers directly above it. The outermost elements of every row are always 1. Here are the first six rows:
 
 \\[
 \begin{array}{c}
