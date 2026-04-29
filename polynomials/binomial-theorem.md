@@ -1,7 +1,7 @@
-
 ## Binomial Theorem
 
 Source: algebrica.org — CC BY-NC 4.0
+
 ## Statement
 
 The binomial theorem asserts that for any positive integer \\(n\\), the expression \\((a+b)^n\\) can be expanded as a finite sum of \\(n+1\\) terms. Each term consists of a binomial coefficient multiplied by a [power](../powers/) of \\(a\\) and a power of \\(b\\):

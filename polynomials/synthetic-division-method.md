@@ -1,4 +1,3 @@
-
 # The Synthetic Division Method
 
 Source: algebrica.org — CC BY-NC 4.0
