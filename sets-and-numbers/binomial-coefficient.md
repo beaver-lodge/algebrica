@@ -7,7 +7,7 @@ https://algebrica.org/binomial-coefficient/
 
 Given two non-negative natural numbers \\(k\\) and \\(n\\), the binomial coefficient denotes the number of ways to combine a specific number of elements \\(k\\) from a larger set of \\(n\\) elements, disregarding the selection order. It is denoted by the notation \\(n\\) choose \\(k\\), and its formula is:
 
-\\[ \binom{n}{k} = \begin{cases} \displaystyle\frac{n!}{k!\,(n-k)!} & \text{if}\,0 \leq k
+\\[ \binom{n}{k} = \begin{cases} \displaystyle\frac{n!}{k!\\,(n-k)!} & \text{if}\\,0 \leq k
  \leq n \\\\[6pt] 0 & \text{if}\,k > n \end{cases} \\]
 
 * \\(n\\) represents the number of elements in the set.
@@ -20,7 +20,7 @@ For example, to determine the value of the binomial coefficient \\( \large{4 \ch
 
 Unlike permutations, where order matters, the pairs \\((p,q)\\) and \\((q,p)\\) describe the same selection and are counted once. The expression \\( \frac{n!}{(n-k)!} \\) counts the ordered selections of \\(k\\) elements from a set of \\(n\\): since order does not matter, each unordered subset is counted \\(k!\\) times, once per arrangement of its elements. Dividing by \\(k!\\) removes the double counting and yields:
 
-\\[ \binom{n}{k} = \frac{n!}{(n-k)!} \cdot \frac{1}{k!} = \frac{n!}{k!\,(n-k)!} \\]
+\\[ \binom{n}{k} = \frac{n!}{(n-k)!} \cdot \frac{1}{k!} = \frac{n!}{k!\\,(n-k)!} \\]
 
 > The binomial coefficient appears in the [binomial theorem](../binomial-theorem/), where it gives the coefficients of each term in the expansion of \\((a+b)^n\\).
 
