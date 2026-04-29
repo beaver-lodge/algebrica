@@ -75,7 +75,7 @@ The symmetry property is observed when selecting a subset of \\(k\\) elements fr
 
 \\[ \binom{n}{k} = \binom{n}{n-k} \\]
 
-This principle of symmetric selection is not just a theoretical idea, but a practical tool used in various fields. It's particularly useful in probability theory, combinatorics, and statistics, where it helps in calculating probabilities, counting possibilities, and analyzing data.
+This principle of symmetric selection is not just a theoretical idea, but a practical tool used in various fields. It is particularly useful in probability theory, combinatorics, and statistics, where it helps in calculating probabilities, counting possibilities, and analyzing data.
 
 - - -
 
