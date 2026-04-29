@@ -5,32 +5,24 @@ https://algebrica.org/binomial-coefficient/
 
 ## Introduction
 
-The binomial coefficient denotes the number of ways to select a specific number of items \\(k\\) from a more extensive set of  \\(n\\) elements, disregarding the selection order. In combinatorics, the binomial coefficient is denoted using the notation \\(n\\) choose \\(k.\\) The formula for the binomial coefficient is: 
+Given two non-negative natural numbers \\(k\\) and \\(n\\), the binomial coefficient denotes the number of ways to combine a specific number of elements \\(k\\) from a larger set of \\(n\\) elements, disregarding the selection order. It is denoted by the notation \\(n\\) choose \\(k\\), and its formula is:
 
-\\[
-\binom{n}{k} = \begin{cases}
-\displaystyle\frac{n!}{k!\\,(n-k)!} & \text{if } 0 \leq k \leq n \\\\[1em]
-0 & \text{if } k > n
-\end{cases}
-\\]
+\\[ \binom{n}{k} = \begin{cases} \displaystyle\frac{n!}{k!\,(n-k)!} & \text{if}\,0 \leq k
+ \leq n \\\\[6pt] 0 & \text{if}\,k > n \end{cases} \\]
 
-+ \\(n\\) represents the total number of elements in the set.
-+ \\(k\\) denotes the number of items to be selected. 
-+  \\(n!\\) and  \\((n-k)!\\) point represents the [factorial](../factorial/) of the [natural numbers](../natural-numbers) \\(n\\) and  \\((n-k)!\\).
+* \\(n\\) represents the number of elements in the set.
+* \\(k\\) indicates the number of elements to be selected.
+* \\(n!\\) and \\((n-k)!\\) are two [factorials](../factorial/).
 
-To determine the value of the binomial coefficient \\( \large{4 \choose 2} \\), we count the number of pairs that can be created from a set of four elements. Consider a set \\(P=(p,q,r,s)\\). The number of subsets formed by two elements is six. These subsets are:
+For example, to determine the value of the binomial coefficient \\( \large{4 \choose 2} \\), we count the number of pairs that can be formed from a set of four elements. Starting from a generic set \\(P=(p,q,r,s)\\), the number of subsets formed by two elements is six, and they are:
 
 \\[ (p,q) \quad (p,r) \quad (p,s) \quad (q,r) \quad (q,s) \quad (r,s) \\]
 
-Order does not play a role here. The pair \\((p,q)\\) and the pair \\((q,p)\\) refer to the same selection, so they count as one. This is what separates a combination from a permutation — and it is precisely what the formula accounts for.
+Unlike permutations, where order matters, the pairs \\((p,q)\\) and \\((q,p)\\) describe the same selection and are counted once. The expression \\( \frac{n!}{(n-k)!} \\) counts the ordered selections of \\(k\\) elements from a set of \\(n\\): since order does not matter, each unordered subset is counted \\(k!\\) times, once per arrangement of its elements. Dividing by \\(k!\\) removes the double counting and yields:
 
-The numerator \\( \frac{n!}{(n-k)!} \\) counts ordered sequences of \\( k \\) elements drawn from a set of \\( n \\): this is the number of permutations. Since order does not matter, each unordered subset appears \\( k! \\) times in that count, once for each way its elements could have been arranged. Dividing by \\( k! \\) removes the overcounting obtaining the expression introduced above:
+\\[ \binom{n}{k} = \frac{n!}{(n-k)!} \cdot \frac{1}{k!} = \frac{n!}{k!\,(n-k)!} \\]
 
-\\[
-\binom{n}{k} = \frac{n!}{(n-k)!} \cdot \frac{1}{k!} = \frac{n!}{k!\\,(n-k)!}
-\\]
-
-> The binomial coefficient appears in the [binomial theorem](../binomial-theorem/), where it represents the coefficients of each term in the expansion of \\( (a + b)^n \\).
+> The binomial coefficient appears in the [binomial theorem](../binomial-theorem/), where it gives the coefficients of each term in the expansion of \\((a+b)^n\\).
 
 - - -
 ## Pascal's triangle
