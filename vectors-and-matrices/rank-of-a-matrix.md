@@ -17,7 +17,7 @@ The rank of a matrix \\( A \\) equals the dimension of the image of the associat
 \\mathrm{rank}(A) + \\mathrm{nullity}(A) = n
 \\]
 
-> The rank is one of the most fundamental invariants of a matrix. It determines the solvability of [systems of linear equations](../systems-of-linear-equations/) via the Rouché-Capelli theorem, and it coincides with the condition \\( r(A) = n \\) for a square matrix to be [invertible](../inverse-matrix/)
+> The rank is one of the most fundamental invariants of a matrix. It determines the solvability of [systems of linear equations](../systems-of-linear-equations/) via the [Rouché-Capelli theorem](../rouche-capelli-theorem/), and it coincides with the condition \\( r(A) = n \\) for a square matrix to be [invertible](../inverse-matrix/)
 
 - - -
 ## Submatrices and minors
@@ -104,4 +104,4 @@ The row echelon form has 2 nonzero rows, confirming \\( r(A) = 2 \\).
 - \\( r(A+B) \\leq r(A) + r(B) \\).
 - \\( r(AB) \\leq \\min(r(A),\\, r(B)) \\).
 
-> The rank appears in the Rouché-Capelli theorem, which characterizes the compatibility of a system of linear equations \\( A\\mathbf{x} = \\mathbf{b} \\): the system is consistent if and only if \\( r(A) = r(A|\\mathbf{b}) \\), where \\( A|\\mathbf{b} \\) denotes the augmented matrix. When consistent, the solution space has dimension \\( n - r(A) \\).
+> The rank appears in the [Rouché-Capelli theorem](../rouche-capelli-theorem/), which characterizes the compatibility of a system of linear equations \\( A\\mathbf{x} = \\mathbf{b} \\): the system is consistent if and only if \\( r(A) = r(A|\\mathbf{b}) \\), where \\( A|\\mathbf{b} \\) denotes the augmented matrix. When consistent, the solution space has dimension \\( n - r(A) \\).
