@@ -14,7 +14,7 @@ What survives, and what makes a quantitative theory possible, is the [modulus](.
 - - -
 ## Inequalities involving real and imaginary parts
 
-Let \\( z = a + bi \\) be a complex number, with \\( a = \mathrm{Re}(z) \\) and \\( b = \mathrm{Im}(z) \\). The modulus is defined by \\( |z| = \sqrt{a^2 + b^2} \\), and from this definition follow three elementary inequalities that compare the modulus with the absolute values of the components.
+Let \\( z = a + bi \\) be a complex number, with \\( a = \mathrm{Re}(z) \\) and \\( b = \mathrm{Im}(z) \\). The modulus is defined by \\( |z| = \sqrt{a^2 + b^2} \\), and from this definition follow three elementary inequalities that compare the modulus with the [absolute values](../absolute-value/) of the components.
 
 The first asserts that the absolute value of either part cannot exceed the modulus:
 
@@ -36,7 +36,7 @@ The second inequality reverses the comparison and provides an upper bound for th
 
 This bound follows from the algebraic identity \\( (|a| + |b|)^2 = a^2 + 2|a|\\,|b| + b^2 \\), in which the cross term is non-negative. Hence one has \\( a^2 + b^2 \leq (|a| + |b|)^2 \\), and taking square roots gives the assertion. Equality occurs when \\( |a|\\,|b| = 0 \\), so when at least one of the components vanishes.
 
-These three inequalities are the workhorses of any estimate involving complex numbers: they allow one to convert bounds on \\( |z| \\) into bounds on the components, and conversely.
+These three inequalities allow one to convert bounds on \\( |z| \\) into bounds on the components, and conversely.
 
 - - -
 ## Triangle inequality
