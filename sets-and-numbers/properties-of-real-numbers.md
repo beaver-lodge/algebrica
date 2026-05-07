@@ -18,7 +18,7 @@ This means that expressions inside parentheses are evaluated first. Exponents ar
 
 > Multiplication and division have equal precedence (as do addition and subtraction). When two operations have the same priority, they are evaluated from left to right.
 
-- - - 
+- - -
 
 + Consider \\(3 + 4 \cdot 2\\). By precedence, multiplication comes before addition: \\(4 \cdot 2 = 8\\) so \\(3 + 8 = 11\\).
 
@@ -102,7 +102,7 @@ Thus, associativity is a specific structural property of addition and multiplica
 
 - - -
 
-Let \\( a = 2 \\), \\( b = 3 \\), and \\( c = 4 \\). For addition: 
+Let \\( a = 2 \\), \\( b = 3 \\), and \\( c = 4 \\). For addition:
 
 \\[
 2 + (3 + 4) = 2 + 7 = 9
@@ -159,7 +159,7 @@ Now compute the right-hand side:
 
 Both expressions yield the same result, confirming the distributive property. The distributive property is fundamental in algebraic manipulation. It allows us to expand expressions such as \\(a(x + y)\\) into \\(ax + ay\\) and conversely, to factor expressions like \\(ax + ay\\) into \\(a(x + y)\\).
 
-Thus, the distributive law underlies both expansion and factorization. It provides the structural bridge between addition and multiplication in the real number system and is essential for simplifying expressions, solving equations, and developing polynomial algebra. 
+Thus, the distributive law underlies both expansion and factorization. It provides the structural bridge between addition and multiplication in the real number system and is essential for simplifying expressions, solving equations, and developing polynomial algebra.
 
 > Within the framework of real numbers, the distributive property is one of the defining axioms of a field, ensuring coherence between the additive and multiplicative structures.
 
@@ -190,7 +190,7 @@ The number \\( 1 \\) is called the multiplicative identity because multiplying b
 
 > The existence of identity elements is one of the defining features of the real numbers as a field. The additive identity \\( 0 \\) anchors the additive structure, while the multiplicative identity \\( 1 \\) anchors the multiplicative structure.
 
-- - - 
+- - -
 ## Inverse property
 
 The inverse property complements the identity property. While identity elements leave numbers unchanged, inverse elements "undo" an operation and return the identity element. In the real number system, every element has an additive inverse, and every nonzero element has a multiplicative inverse.

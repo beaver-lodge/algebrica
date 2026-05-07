@@ -100,7 +100,7 @@ For rational numbers the decimal expansion is eventually periodic. For irrationa
 
 - - -
 
-Geometrically, \\(\mathbb{R}\\) corresponds to the points of a continuous straight line, the real number line, with no gaps. 
+Geometrically, \\(\mathbb{R}\\) corresponds to the points of a continuous straight line, the real number line, with no gaps.
 
 Completeness is what distinguishes \\(\mathbb{R}\\) from \\(\mathbb{Q}\\): the sequence of rational approximations to \\(\sqrt{2}\\), for instance, has no limit within \\(\mathbb{Q}\\), but its limit exists in \\(\mathbb{R}\\). The topic of least upper bounds is treated in the entry on [supremum and infimum](https://algebrica.org/supremum-and-infimum/).
 
@@ -129,7 +129,7 @@ The transcendental numbers are the real numbers that lie outside \\(\mathbb{A}\\
 > The set \\(\mathbb{A}\\) is countable, because the polynomials with rational coefficients form a countable family and each polynomial has finitely many roots. Since \\(\mathbb{R}\\) is uncountable, the transcendental numbers form an uncountable set, and in this sense almost every real number is transcendental, even though explicit examples are comparatively rare.
 
 - - -
-# Complex numbers
+## Complex numbers
 
 The set of complex numbers, denoted by \\(\mathbb{C}\\), extends \\(\mathbb{R}\\) by introducing an element \\(i\\) satisfying \\(i^2 = -1\\). Every complex number takes the form
 

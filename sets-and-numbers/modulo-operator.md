@@ -34,7 +34,7 @@ a \equiv b \pmod{n}
 
 The equivalent characterisation in terms of divisibility states that \\(a \equiv b \pmod{n}\\) if and only if \\(n \mid (a - b)\\). For example, \\(17 \equiv 2 \pmod 5\\) because \\(17 - 2 = 15\\) is divisible by \\(5\\), and equivalently because both \\(17\\) and \\(2\\) leave remainder \\(2\\) when divided by \\(5\\).
 
-It is important to distinguish the operator \\(a \bmod n\\), which produces a specific integer, from the congruence \\(a \equiv b \pmod n\\), which is a relation between two integers. The first is a function of \\(a\\) and \\(n\\); the second is a statement that can be true or false depending on the integers involved. Congruence modulo \\(n\\) is an equivalence relation on the integers. 
+It is important to distinguish the operator \\(a \bmod n\\), which produces a specific integer, from the congruence \\(a \equiv b \pmod n\\), which is a relation between two integers. The first is a function of \\(a\\) and \\(n\\); the second is a statement that can be true or false depending on the integers involved. Congruence modulo \\(n\\) is an equivalence relation on the integers.
 
 + It is reflexive, since \\(a \equiv a \pmod n\\) for every integer \\(a\\).
 + It is symmetric, since \\(a \equiv b \pmod n\\) implies \\(b \equiv a \pmod n\\).

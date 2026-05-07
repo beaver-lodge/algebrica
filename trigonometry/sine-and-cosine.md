@@ -215,7 +215,7 @@ These identities express the fact that trigonometric waves with distinct frequen
 \int_{-\pi}^{\pi} f(x)g(x)\\,dx
 \\]
 
-plays an analogous role (it acts as an inner product). When this integral vanishes, the functions behave as mutually perpendicular directions in a functional space. 
+plays an analogous role (it acts as an inner product). When this integral vanishes, the functions behave as mutually perpendicular directions in a functional space.
 
 > This property reveals that sine and cosine form a structurally independent system of oscillations. Because of this orthogonality, it becomes possible to isolate individual harmonic components inside a periodic function, an idea developed systematically in the theory of [Fourier Series](../fourier-series).
 

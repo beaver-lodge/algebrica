@@ -17,7 +17,7 @@ to the area of a corresponding hyperbolic sector. For any real value \\(x\\), we
 P(X_{P},\\, Y_{P})
 \\]
 
-on the branch with \\(X>0\\) such that the signed area enclosed by the \\(OX\\) axis, the segment from the origin to \\(P\\), and the portion of the hyperbola between \\((1,0)\\) and \\(P\\) is equal to \\(x/2\\). 
+on the branch with \\(X>0\\) such that the signed area enclosed by the \\(OX\\) axis, the segment from the origin to \\(P\\), and the portion of the hyperbola between \\((1,0)\\) and \\(P\\) is equal to \\(x/2\\).
 
 The notion of signed area makes it possible to accommodate both positive and negative values in a continuous way: when \\(x>0\\) the sector lies in the first quadrant, while for \\(x<0\\) it extends into the fourth quadrant, without breaking the correspondence between the parameter \\(x\\) and the position of \\(P\\). Once this point has been determined, the hyperbolic sine of \\(x\\) is simply its vertical coordinate:
 
@@ -25,7 +25,7 @@ The notion of signed area makes it possible to accommodate both positive and neg
 \sinh(x) := Y_{P}
 \\]
 
-Specularly to what has just been shown for the hyperbolic sine, we can introduce the hyperbolic cosine by looking at the same equilateral hyperbola. Once the point: 
+Specularly to what has just been shown for the hyperbolic sine, we can introduce the hyperbolic cosine by looking at the same equilateral hyperbola. Once the point:
 \\[
 P(X_{P},\\, Y_{P})
 \\]
@@ -231,7 +231,7 @@ The hyperbolic cosine function \\(f(x) = \cosh(x)\\) assigns to each real number
 - - -
 ## Relation to the circular sine and cosine
 
-Hyperbolic sine and cosine originate from the geometry of the equilateral hyperbola: 
+Hyperbolic sine and cosine originate from the geometry of the equilateral hyperbola:
 \\[
 x^{2} - y^{2} = 1
 \\]

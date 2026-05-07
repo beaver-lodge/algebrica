@@ -7,7 +7,7 @@ https://algebrica.org/unit-circle/
 
 The unit circle (or the trigonometric circle) is a circle of radius one centered at the origin of the Cartesian plane. It serves as the geometric reference for representing angles and their positions, providing a precise way to describe rotation, orientation, and the relationship between points on the circle as an angle varies. In formal terms, consider a circle of unit radius centered at the origin \\( O \\), and let \\( P \\) be a point on the circle. The segment \\( \overline{OP} \\), which has length one, forms an angle \\( \theta \\) with the positive \\( x \\)-axis, and \\( R \\) denotes the foot of the perpendicular dropped from \\( P \\) to the \\( x \\)-axis.
 
-By convention, the counterclockwise direction is assigned a positive sign and the clockwise direction a negative sign. The angle \\( \theta \\) is therefore positive when \\( P \\) is reached by moving counterclockwise from the positive \\( x \\)-axis, and negative otherwise. 
+By convention, the counterclockwise direction is assigned a positive sign and the clockwise direction a negative sign. The angle \\( \theta \\) is therefore positive when \\( P \\) is reached by moving counterclockwise from the positive \\( x \\)-axis, and negative otherwise.
 
 Let \\( S \\) be the point \\( (1, 0) \\) where the unit circle meets the positive \\( x \\)-axis, and let \\( T \\) be the point where the line through \\( O \\) and \\( P \\) intersects the vertical tangent to the circle at \\( S \\).
 
@@ -68,7 +68,7 @@ When \\( \theta \\) is allowed to range over all of \\( \mathbb{R} \\), the same
 
 As an example, consider the angle \\( \theta = \pi/3 \\). The [parametric equations](../equations-with-parameters/) give the following values.
 
-\\[\cos\frac{\pi}{3} = \frac{1}{2}\\] 
+\\[\cos\frac{\pi}{3} = \frac{1}{2}\\]
 \\[\sin\frac{\pi}{3} = \frac{\sqrt{3}}{2}\\]
 
 The corresponding point on the unit circle is therefore:
@@ -81,10 +81,10 @@ One may verify directly that:
 - - -
 ## Periodic nature of the parametrization
 
-The parametric representation of the unit circle reflects a fundamental property of the 
-trigonometric functions: since the circle is a closed curve, completing a full rotation of 
-\\( 2\pi \\) radians returns the point \\( P \\) to its original position. As a consequence, 
-adding any integer multiple of \\( 2\pi \\) to the angle \\( \theta \\) leaves the 
+The parametric representation of the unit circle reflects a fundamental property of the
+trigonometric functions: since the circle is a closed curve, completing a full rotation of
+\\( 2\pi \\) radians returns the point \\( P \\) to its original position. As a consequence,
+adding any integer multiple of \\( 2\pi \\) to the angle \\( \theta \\) leaves the
 corresponding point on the circle unchanged. This is expressed by the following identity:
 
 \\[
@@ -92,7 +92,7 @@ corresponding point on the circle unchanged. This is expressed by the following 
 \\]
 
 for every integer \\( k \in \mathbb{Z} \\). In particular, this means that the parametrization by \\( \theta \in \mathbb{R} \\) is not injective: infinitely many values of \\( \theta \\)  correspond to the same point on the circle, and a bijective correspondence is recovered only by restricting \\( \theta \\) to an interval of length \\( 2\pi \\), such as \\( [0, 2\pi) \\).
- 
+
 This periodic behaviour is a defining property of the [sine and cosine](../sine-and-cosine/), which inherit it directly from the geometry of the unit circle.
 
 - - -
@@ -127,10 +127,10 @@ for some angle \\( \theta \\). This expression coincides with the [exponential f
 e^{i\theta} = \cos\theta + i\sin\theta
 \\]
 
-The unit circle is therefore the set of all complex numbers of the form \\( e^{i\theta} \\) 
-as \\( \theta \\) ranges over \\( \mathbb{R} \\), or equivalently the set 
-\\( \{z \in \mathbb{C} : |z| = 1\} \\). Multiplication of two such numbers corresponds 
-geometrically to a rotation: if \\( z_1 = e^{i\alpha} \\) and \\( z_2 = e^{i\beta} \\), 
-then \\( z_1 z_2 = e^{i(\alpha+\beta)} \\), which is the point obtained by rotating 
-\\( z_1 \\) by the angle \\( \beta \\). This geometric interpretation underlies both 
+The unit circle is therefore the set of all complex numbers of the form \\( e^{i\theta} \\)
+as \\( \theta \\) ranges over \\( \mathbb{R} \\), or equivalently the set
+\\( \{z \in \mathbb{C} : |z| = 1\} \\). Multiplication of two such numbers corresponds
+geometrically to a rotation: if \\( z_1 = e^{i\alpha} \\) and \\( z_2 = e^{i\beta} \\),
+then \\( z_1 z_2 = e^{i(\alpha+\beta)} \\), which is the point obtained by rotating
+\\( z_1 \\) by the angle \\( \beta \\). This geometric interpretation underlies both
 [De Moivre's theorem](../de-moivre-theorem/) and the study of the [roots of unity](../roots-of-unity/).

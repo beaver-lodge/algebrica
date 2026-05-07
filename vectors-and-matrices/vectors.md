@@ -3,11 +3,11 @@
 Source: algebrica.org — CC BY-NC 4.0
 https://algebrica.org/vectors/
 
-## Geometric representation 
+## Geometric representation
 
-A vector is a quantity characterised by both a magnitude and a direction, in contrast to a scalar, which is described by magnitude alone. This distinction arises naturally in geometry and physics, where quantities such as displacement, [velocity](../velocity), and force require directional information that a single real number cannot encode. 
+A vector is a quantity characterised by both a magnitude and a direction, in contrast to a scalar, which is described by magnitude alone. This distinction arises naturally in geometry and physics, where quantities such as displacement, [velocity](../velocity), and force require directional information that a single real number cannot encode.
 
-The formal treatment developed here is algebraic and applies to vectors in the Euclidean spaces \\(\mathbb{R}^2\\) and \\(\mathbb{R}^3\\), which are sufficient for most basic applications in calculus, geometry, and mechanics. A vector in the plane or in three-dimensional space is represented as a directed line segment, that is, a segment with a specified initial point and a terminal point. The direction of the segment indicates the orientation of the vector, and its length represents the magnitude. 
+The formal treatment developed here is algebraic and applies to vectors in the Euclidean spaces \\(\mathbb{R}^2\\) and \\(\mathbb{R}^3\\), which are sufficient for most basic applications in calculus, geometry, and mechanics. A vector in the plane or in three-dimensional space is represented as a directed line segment, that is, a segment with a specified initial point and a terminal point. The direction of the segment indicates the orientation of the vector, and its length represents the magnitude.
 
 Two directed segments that have the same length and the same direction are considered to represent the same vector, regardless of their position in space. This equivalence is the basis for the notion of a free vector, which is entirely characterised by its direction and magnitude, independently of where it is drawn.
 
@@ -16,7 +16,7 @@ It is standard to denote vectors using boldface letters such as \\(\mathbf{v}\\)
 - - -
 ## Components and coordinate representation
 
-In a Cartesian coordinate system, every vector in \\(\mathbb{R}^n\\) can be expressed in terms of its components along the coordinate axes. A vector \\(\mathbf{v}\\) in \\(\mathbb{R}^2\\) is written as an ordered pair: 
+In a Cartesian coordinate system, every vector in \\(\mathbb{R}^n\\) can be expressed in terms of its components along the coordinate axes. A vector \\(\mathbf{v}\\) in \\(\mathbb{R}^2\\) is written as an ordered pair:
 
 \\[\mathbf{v} = (v_1,\\, v_2) \in \mathbb{R}^2\\]
 
@@ -46,7 +46,7 @@ The basic algebraic operations on vectors are addition, subtraction, and scalar 
 \mathbf{u} + \mathbf{v} = (u_1+v_1,\\; u_2+v_2,\\; u_3+v_3)
 \\]
 
-Geometrically, vector addition corresponds to placing the initial point of \\(\mathbf{v}\\) at the terminal point of \\(\mathbf{u}\\). The resulting vector connects the initial point of \\(\mathbf{u}\\) to the terminal point of \\(\mathbf{v}\\). This construction is known as the triangle rule. 
+Geometrically, vector addition corresponds to placing the initial point of \\(\mathbf{v}\\) at the terminal point of \\(\mathbf{u}\\). The resulting vector connects the initial point of \\(\mathbf{u}\\) to the terminal point of \\(\mathbf{v}\\). This construction is known as the triangle rule.
 
 An equivalent formulation, the parallelogram rule, places both vectors at a common initial point and identifies their sum with the diagonal of the parallelogram they determine.
 
@@ -61,7 +61,7 @@ When \\(\lambda > 0\\), the resulting vector has the same direction as \\(\mathb
 - - -
 ## Algebraic properties
 
-The operations of vector addition and scalar multiplication satisfy a set of fundamental properties that hold for all vectors \\(\mathbf{u}, \mathbf{v}, \mathbf{w} \in \mathbb{R}^n\\) and all scalars \\(\lambda, \mu \in \mathbb{R}\\). 
+The operations of vector addition and scalar multiplication satisfy a set of fundamental properties that hold for all vectors \\(\mathbf{u}, \mathbf{v}, \mathbf{w} \in \mathbb{R}^n\\) and all scalars \\(\lambda, \mu \in \mathbb{R}\\).
 
 + Addition is commutative, meaning that \\(\mathbf{u} + \mathbf{v} = \mathbf{v} + \mathbf{u}\\), and associative, so that \\((\mathbf{u} + \mathbf{v}) + \mathbf{w} = \mathbf{u} + (\mathbf{v} + \mathbf{w}).\\)
 

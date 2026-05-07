@@ -1,6 +1,7 @@
 # Notable Products
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/notable-products/
 
 ## Introduction
 
@@ -209,7 +210,7 @@ In this way the expression is a difference of two squares, and the factorisation
 > The identities for \\(a^n \pm b^n\\) are related to Newton's identities, which express power sums \\(p_k=a^k+b^k\\) in terms of the elementary symmetric polynomials \\(e_1=a+b\\) and \\(e_2=ab\\).
 
 - - -
-- 
+-
 ## Example 2
 
 Let's consider the following expression:
@@ -220,7 +221,7 @@ Since \\(n = 4\\) is even, \\(a^4 + b^4\\) does not factorise over \\(\mathbb{R}
 
 However, it admits the following factorisation:
 
-\\[a^4 + b^4 = (a^2 + \sqrt{2}\\,ab + b^2)(a^2 - \sqrt{2}\\,ab + b^2)\\] 
+\\[a^4 + b^4 = (a^2 + \sqrt{2}\\,ab + b^2)(a^2 - \sqrt{2}\\,ab + b^2)\\]
 
 The factorisation can be verified by expanding the right-hand side:
 

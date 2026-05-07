@@ -1,8 +1,9 @@
 # Partial Fraction Decomposition
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/partial-fraction-decomposition/
 
-## Introduction 
+## Introduction
 
 Partial fraction decomposition is a method that allows rewriting a [rational function](../rational-functions/) as a sum of fractions, based on the idea that when the denominator can be factored into its irreducible components, the original [function](../functions/) can be expressed as a combination of basic terms. Consider, for example, a rational function of the form:
 

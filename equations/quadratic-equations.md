@@ -3,7 +3,7 @@
 Source: algebrica.org — CC BY-NC 4.0
 https://algebrica.org/quadratic-equations/
 
-# ## Introduction
+## Introduction
 
 A quadratic equation is a second-degree [polynomial equation](../polynomial-equations/)
 in one variable. Its standard form is the following:
@@ -30,7 +30,7 @@ The equation \\(y = ax^2 + bx + c\\), with \\(a \neq 0\\), represents a [parabol
 
 When the coefficient \\(a > 0\\) the parabola opens upward and the vertex is a minimum of the function. When \\(a < 0\\) it opens downward and the vertex is a maximum.
 
-The real solutions of the equation \\(ax^2 + bx + c = 0\\) correspond to the points at which the parabola intersects the \\(x\\)-axis. The sign of the [discriminant](../quadratic-formula/) \\(\Delta = b^2 - 4ac\\) controls this configuration: 
+The real solutions of the equation \\(ax^2 + bx + c = 0\\) correspond to the points at which the parabola intersects the \\(x\\)-axis. The sign of the [discriminant](../quadratic-formula/) \\(\Delta = b^2 - 4ac\\) controls this configuration:
 
 + For \\(\Delta > 0\\) the parabola crosses the axis at two distinct points.
 + For \\(\Delta = 0\\) it is tangent to the axis.
@@ -46,7 +46,7 @@ coefficient \\(b\\) or \\(c\\) is equal to zero. In this case the equation takes
 
 \\[ax^2 + bx + c = 0\\]
 
-This form allows the coefficients to be identified and the [discriminant](../quadratic-formula/) \\(\Delta = b^2 - 4ac\\) to be computed. The discriminant determines the nature of the solutions: 
+This form allows the coefficients to be identified and the [discriminant](../quadratic-formula/) \\(\Delta = b^2 - 4ac\\) to be computed. The discriminant determines the nature of the solutions:
 
 + Two distinct real roots when \\(\Delta > 0\\).
 + One real root of multiplicity two when \\(\Delta = 0\\).
@@ -96,7 +96,7 @@ trial, but becomes impractical for equations with irrational or complex roots, w
 
 - - -
 ## How to solve a quadratic equation
-  
+
 + Rewrite the equation in standard form: \\( ax^2 + bx + c = 0 \\).  
 + Calculate the discriminant: \\( \Delta = b^2 - 4ac \\).  
 + Use the quadratic formula:  

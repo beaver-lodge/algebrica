@@ -44,7 +44,7 @@ n! =
 The factorial is used to compute the [binomial coefficient](../binomial-coefficient/), which represents the number of ways to select a given number of elements from a larger set.
 
 - - -
-- 
+-
 ## Simplifying factorial ratios
 
 Suppose we are given two non-negative integers \\(n\\) and \\(k\\) with \\(n > k\\), and we want to compute the following ratio:

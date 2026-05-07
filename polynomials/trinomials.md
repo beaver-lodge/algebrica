@@ -1,6 +1,8 @@
 # Trinomials
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/trinomials/
+
 ## Definition
 
 A trinomial is defined as a [polynomial](../polynomials/) consisting of exactly three non-zero, pairwise distinct terms. More generally, within a commutative ring with unity, a trinomial in the indeterminate \\(x\\) is any expression of the form:
@@ -28,7 +30,7 @@ The quadratic trinomial (1) defines the quadratic function \\(f(x) = ax^2 + bx +
 
 \\[ \left( -\frac{b}{2a}, \\, -\frac{\Delta}{4a} \right) \\]
 
-The parabola opens upward if \\(a > 0\\) and downward if \\(a < 0\\). 
+The parabola opens upward if \\(a > 0\\) and downward if \\(a < 0\\).
 
 The number of intersections with the \\(x\\)-axis corresponds to the number of distinct real roots. The sign of \\(\Delta\\) provides a geometric interpretation: \\(\Delta > 0\\) indicates two \\(x\\)-intercepts, \\(\Delta = 0\\) indicates tangency to the \\(x\\)-axis, and \\(\Delta < 0\\) indicates no real intersection.
 
@@ -36,7 +38,7 @@ The number of intersections with the \\(x\\)-axis corresponds to the number of d
 
 ## Classification of trinomials
 
-Trinomials are classified according to two primary criteria: degree and number of variables. With respect to degree, the simplest non-trivial trinomials in one variable are quadratic trinomials (degree 2). Cubic trinomials, such as \\(x^3 + px + q\\), are significant in the theory of cubic equations, while degree-four trinomials arise in the study of biquadratic equations. 
+Trinomials are classified according to two primary criteria: degree and number of variables. With respect to degree, the simplest non-trivial trinomials in one variable are quadratic trinomials (degree 2). Cubic trinomials, such as \\(x^3 + px + q\\), are significant in the theory of cubic equations, while degree-four trinomials arise in the study of biquadratic equations.
 
 In the case of two variables, trinomials of the form \\(ax^2 + bxy + cy^2\\) represent homogeneous quadratic forms. Homogeneous trinomials deserve a brief mention: a trinomial \\(ax^n + bx^{n-1}y + cy^{n-2}\\) is not homogeneous unless all three terms share the same total degree. The trinomial \\(x^2 + xy + y^2\\), for instance, is homogeneous of degree 2, while \\(x^2 + xy + y\\) is not.
 
@@ -118,7 +120,7 @@ This calculation yields \\(x_1 = 12/6 = 2\\) and \\(x_2 = 2/6 = 1/3\\). The fact
 
 As a consistency check, Vieta's formulas (5) require that \\(x_1 + x_2 = -b/a\\) and \\(x_1 x_2 = c/a\\). Indeed, \\(x_1 + x_2 = 2 + 1/3 = 7/3\\) and \\(x_1 x_2 = 2 \cdot 1/3 = 2/3\\), both in agreement with \\(-b/a = 7/3\\) and \\(c/a = 2/3\\).
 
-The factorisation therefore yields: 
+The factorisation therefore yields:
 \\[(x-2)(3x-1)\\]
 
 - - -
@@ -189,9 +191,9 @@ The roots \\(t_1, t_2\\) of the resulting quadratic equation correspond to the r
 
 Applying the substitution \\(t = x^2\\) results in:
 
-\\[t^2 - 5t + 4 = (t-1)(t-4)\\] 
+\\[t^2 - 5t + 4 = (t-1)(t-4)\\]
 
-So \\(t = 1\\) or \\(t = 4.\\) 
+So \\(t = 1\\) or \\(t = 4.\\)
 
 Reverting to the original variable, \\(x^2 = 1\\) yields \\(x = \pm 1\\), and \\(x^2 = 4\\) yields \\(x = \pm 2\\). Thus, the complete factorisation over \\(\mathbb{R}\\) is:
 

@@ -1,6 +1,7 @@
 ## Binomial Theorem
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/binomial-theorem/
 
 ## Statement
 
@@ -10,9 +11,9 @@ The binomial theorem asserts that for any positive integer \\(n\\), the expressi
 (a + b)^n = \binom{n}{0} a^n b^0 + \binom{n}{1} a^{n-1} b^1 + \ldots + \binom{n}{n-1} a^1 b^{n-1} + \binom{n}{n} a^0 b^n
 \\]
 
-+ The exponent \\(n\\) is a positive integer, that is \\(n \in \mathbb{N}^+\\). 
++ The exponent \\(n\\) is a positive integer, that is \\(n \in \mathbb{N}^+\\).
 + The base \\(a\\) is raised to a decreasing power, from \\(n\\) down to \\(0\\)
-+ The base \\(b\\) is raised to an increasing power, from \\(0\\) up to \\(n\\). 
++ The base \\(b\\) is raised to an increasing power, from \\(0\\) up to \\(n\\).
 + The factor \\(\dbinom{n}{k}\\) is the [binomial coefficient](../binomial-coefficient/), where the index \\(k\\) takes integer values between \\(0\\) and \\(n\\).
 
 > The coefficients \\(\binom{n}{k}\\) appearing in the expansion correspond exactly to the entries of the \\(n\\)-th row of [Pascal's triangle](../binomial-coefficient/). The symmetry \\(\binom{n}{k} = \binom{n}{n-k}\\) reflects the fact that choosing \\(k\\) elements from a set of \\(n\\) is equivalent to leaving out the remaining \\(n-k\\).
@@ -110,7 +111,7 @@ The index \\(k+1\\) reflects the position of the term in the expansion, since \\
 - - -
 ## Special cases
 
-Several classical identities arise as particular instances of the binomial theorem and are worth stating explicitly for their frequent use in algebraic manipulation. 
+Several classical identities arise as particular instances of the binomial theorem and are worth stating explicitly for their frequent use in algebraic manipulation.
 
 The case \\(n = 2\\) reproduces the well-known identity for the square of a binomial:
 

@@ -1,6 +1,7 @@
 # Roots of a Polynomial
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/roots-of-a-polynomial/
 
 ## Definition
 

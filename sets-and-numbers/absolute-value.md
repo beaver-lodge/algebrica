@@ -11,9 +11,9 @@ The absolute value of a number represents its distance from zero on the number l
 |x| =
 \begin{cases}
 +x & \text{if } x \geq 0 \\\\[0.5em]
--x & \text{if } x < 0 
+-x & \text{if } x < 0
 \end{cases}
- \quad 
+ \quad
 \forall \\; x \in \mathbb{R}
 \\]
 
@@ -21,7 +21,7 @@ For example, \\(|5| = 5\\), and \\(|-6| = -(-6) = 6\\). This means the expressio
 
 - - -
 
-The [absolute value function](../absolute-value-function/) assigns to each [real number](../real-numbers/) its distance from zero on the real line. This means that negative numbers are mapped to their positive counterparts, while positive numbers remain unchanged, since distance is always non-negative. 
+The [absolute value function](../absolute-value-function/) assigns to each [real number](../real-numbers/) its distance from zero on the real line. This means that negative numbers are mapped to their positive counterparts, while positive numbers remain unchanged, since distance is always non-negative.
 
 More generally, the absolute value expression \\(|x - a|\\) can be interpreted as the distance between the point \\(x\\) and the point \\(a\\) on the number line. We have:
 
@@ -40,7 +40,7 @@ The absolute value of a number \\( |x| \\) can also be represented using the [si
 Indeed, the sign function is defined as:
 
 \\[
-\operatorname{sgn}(x) = 
+\operatorname{sgn}(x) =
 \begin{cases}
 -1 & \text{if } x < 0 \\\\[0.5em]
 0 & \text{if } x = 0 \\\\[0.5em]
@@ -146,7 +146,7 @@ which gives \\( |a| - |b| \le |a - b| \\). By symmetry, swapping \\( a \\) and \
 \\]
 
 - - -
-## The graph of \\(y= |x|\\) 
+## The graph of \\(y= |x|\\)
 
 The graph of the [absolute value function](../absolute-value-function/) \\( |x| \\) is symmetric with respect to the y-axis. This symmetry implies that the function is [even](../even-and-odd-functions/), meaning it satisfies the identity:
 

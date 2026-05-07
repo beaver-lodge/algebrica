@@ -1,6 +1,7 @@
 # Monomials
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/monomials/
 
 ## Definition
 
@@ -42,8 +43,8 @@ The constraint that exponents be non-negative integers follows directly from the
 3x^{-1} \qquad 5x^{1/2} \qquad \frac{4}{x}
 \\]
 
-In the first case, \\(x^{-1} = 1/x\\), a negative exponent introduces a division. 
-In the second, \\(x^{1/2} = \sqrt{x}\\), a fractional exponent introduces a radical. 
+In the first case, \\(x^{-1} = 1/x\\), a negative exponent introduces a division.
+In the second, \\(x^{1/2} = \sqrt{x}\\), a fractional exponent introduces a radical.
 The third case, \\(4/x = 4x^{-1}\\), is simply a negative exponent in disguise.
 
 - - -

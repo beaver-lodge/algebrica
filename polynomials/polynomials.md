@@ -1,6 +1,7 @@
 # Polynomials
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/polynomials/
 
 ## Definition
 
@@ -10,7 +11,7 @@ Let \\(\mathbb{R}\\) represent the field of real numbers. A polynomial in one va
 
 \\(n\\) is a non-negative integer and \\(a_0, a_1, \ldots, a_n \in \mathbb{R}\\) are referred to as the coefficients, with \\(a_n \neq 0\\). Each term \\(a_k x^k\\) is known as a monomial of degree \\(k\\). Polynomials are typically denoted by \\(P(x)\\) or \\(p(x)\\). The [set](../sets/) of all polynomials in \\(x\\) with real coefficients is denoted by \\(\mathbb{R}[x]\\). This set forms a [ring](../rings/) under two standard operations. For two polynomials:
 
-\\[P(x) = \sum_{k=0}^{n} a_k x^k\\] 
+\\[P(x) = \sum_{k=0}^{n} a_k x^k\\]
 \\[Q(x) = \sum_{k=0}^{m} b_k x^k\\]
 
 their sum is defined by adding the coefficients of corresponding degrees:
@@ -66,7 +67,7 @@ Second-degree polynomials, also known as quadratic polynomials, have a graph tha
 
 \\[y = ax^2 + bx + c \\]
 
-\\(a\\) determines the concavity of the parabola, \\(b\\) and \\(c\\) jointly determine 
+\\(a\\) determines the concavity of the parabola, \\(b\\) and \\(c\\) jointly determine
 the position of the vertex, and \\(c\\) represents the y-intercept. The graph shows the equation of the parabola \\( y = x^2 + 4x - 4.\\) In this case, the parabola opens upward since the coefficient of \\( x^2 \\) is positive.
 
 - - -
@@ -79,11 +80,11 @@ where \\( a \\) determines the overall shape and orientation of the curve, \\( b
 
 ## End behavior of polynomial
 
-The end behavior of a polynomial is determined exclusively by its leading term, that is, the term of highest degree \\(a_n x^n\\). As \\(|x|\\) approaches infinity, all lower-degree terms become [asymptotically](../asymptotes/) negligible compared to the growth imposed by the power \\(x^n\\). 
+The end behavior of a polynomial is determined exclusively by its leading term, that is, the term of highest degree \\(a_n x^n\\). As \\(|x|\\) approaches infinity, all lower-degree terms become [asymptotically](../asymptotes/) negligible compared to the growth imposed by the power \\(x^n\\).
 
-Consequently, the description of the polynomial’s behavior for \\(x \to -\infty\\) and \\(x \to +\infty\\) reduces to analyzing the interplay between the parity of the degree \\(n\\) and the sign of the leading coefficient \\(a_n\\). 
+Consequently, the description of the polynomial’s behavior for \\(x \to -\infty\\) and \\(x \to +\infty\\) reduces to analyzing the interplay between the parity of the degree \\(n\\) and the sign of the leading coefficient \\(a_n\\).
 
-+ When the degree is even, the function \\(x^n\\) is non-negative for all real values of \\(x\\), and the end behavior is therefore symmetric: the polynomial diverges to \\(+\infty\\) if \\(a_n > 0\\) and to \\(-\infty\\) if \\(a_n < 0\\). 
++ When the degree is even, the function \\(x^n\\) is non-negative for all real values of \\(x\\), and the end behavior is therefore symmetric: the polynomial diverges to \\(+\infty\\) if \\(a_n > 0\\) and to \\(-\infty\\) if \\(a_n < 0\\).
 
 + When the degree is odd, the power \\(x^n\\) changes sign with \\(x\\), yielding a non-symmetric configuration in which the two ends of the graph point in opposite directions.
 
@@ -122,7 +123,7 @@ A [trinomial](../trinomial) is a polynomial expression consisting of three terms
 - - -
 ## Sum or difference of two polynomials
 
-The [sum or difference](../adding-and-subtracting-polynomials/) of two polynomials of the same degree results in a polynomial of the same degree, or of lower degree if the terms of highest degree cancel out. For example, if we have two polynomials of degree \\(n\\), say \\(P(x)\\) and \\(Q(x)\\), then their sum or difference, denoted by \\(P(x) ± Q(x)\\), is also a polynomial of degree \\(\leq n\\). 
+The [sum or difference](../adding-and-subtracting-polynomials/) of two polynomials of the same degree results in a polynomial of the same degree, or of lower degree if the terms of highest degree cancel out. For example, if we have two polynomials of degree \\(n\\), say \\(P(x)\\) and \\(Q(x)\\), then their sum or difference, denoted by \\(P(x) ± Q(x)\\), is also a polynomial of degree \\(\leq n\\).
 
 The sum or difference of the two polynomials is obtained by adding or subtracting the corresponding coefficients of the like terms.
 
@@ -159,7 +160,7 @@ P(x) + Q(x) &= x^2 + 3x - 1 + 2x^2 - x + 5 \\\\[0.5em]
 \\end{align}
 \\]
 
-The result of the two polynomials \\(P(x) + Q(x)\\) is expressed as: 
+The result of the two polynomials \\(P(x) + Q(x)\\) is expressed as:
 
 \\[3x^2 + 2x + 4 \\]
 
@@ -258,13 +259,13 @@ A [polynomial function](../polynomial-function/) is a [function](../functions) o
 Let \\( p(x) \\) and \\( q(x) \\) be two polynomials. If the two polynomial functions are equal for every value of \\( x \\), that is:
 
 \\[ p(x) = q(x) \quad \text{for all } x \\]
-  
+
 then the two polynomials are exactly the same, meaning they have the same coefficients. This is known as the identity principle of polynomials.
 
 - - -
 
-Polynomial functions possess several notable analytical properties. 
+Polynomial functions possess several notable analytical properties.
 
-+ Their domain is the entire real line \\(\mathbb{R}\\), and they are [continuous](../continuous-functions/) and smooth at every point, with no [discontinuities](../discontinuities-of-real-functions/), singularities, cusps, or corners. 
-+ As a consequence of their global regularity, polynomial functions do not admit [asymptotes](../asymptotes/) of any kind. 
-+ Regarding [symmetry](../even-and-odd-functions/), an odd polynomial function has an [inflection point](../maximum-minimum-and-inflection-points/) at the origin \\((0,0)\\), while an even polynomial function attains a local maximum or minimum at \\(x = 0\\). 
++ Their domain is the entire real line \\(\mathbb{R}\\), and they are [continuous](../continuous-functions/) and smooth at every point, with no [discontinuities](../discontinuities-of-real-functions/), singularities, cusps, or corners.
++ As a consequence of their global regularity, polynomial functions do not admit [asymptotes](../asymptotes/) of any kind.
++ Regarding [symmetry](../even-and-odd-functions/), an odd polynomial function has an [inflection point](../maximum-minimum-and-inflection-points/) at the origin \\((0,0)\\), while an even polynomial function attains a local maximum or minimum at \\(x = 0\\).

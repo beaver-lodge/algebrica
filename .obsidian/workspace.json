@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "905360601d71ad6d",
+        "id": "a26e6bee13684cdf",
         "type": "tabs",
         "children": [
           {
-            "id": "cdbfaa8b67f956e0",
+            "id": "c918dff824e1ceb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "equations/factoring-quadratic-equations.md",
+                "file": "vectors-and-matrices/linear-combinations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "factoring-quadratic-equations"
-            }
-          },
-          {
-            "id": "97b0a52b4b45a4c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vectors-and-matrices/vectors.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "vectors"
-            }
-          },
-          {
-            "id": "d1c420c0854b07c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vectors-and-matrices/matrices.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "matrices"
+              "title": "linear-combinations"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,42 +197,43 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "864fd0c13cccf3e1",
+  "active": "c918dff824e1ceb6",
   "lastOpenFiles": [
-    "vectors-and-matrices/vectors.md",
-    "vectors-and-matrices/matrices.md",
-    "trigonometry/the-law-of-cosines.md",
-    "equations/factoring-quadratic-equations.md",
-    "vectors-and-matrices",
-    "equations/polynomial-equations.md",
-    "equations/linear-equations.md",
-    "equations/quadratic-equations.md",
-    "equations/equations.md",
-    "equations/quadratic-formula.md",
-    "trigonometry/the-law-of-sines.md",
-    "trigonometry/unit-circle.md",
-    "trigonometry/trigonometric-identities.md",
-    "trigonometry/pythagorean-identity.md",
-    "trigonometry/right-triangle-trigonometry.md",
-    "trigonometry/reduction-formulas-and-reference-angles.md",
-    "trigonometry/pythagorean-theorem.md",
-    "trigonometry/hyperbolic-tangent-and-cotangent.md",
-    "trigonometry/hyperbolic-sine-and-cosine.md",
-    "equations",
-    "trigonometry/arctangent-and-arccotangent.md",
-    "trigonometry/tangent-and-cotangent.md",
-    "trigonometry/arcsine-and-arccosine.md",
     "trigonometry/secant-and-cosecant.md",
-    "trigonometry/sine-and-cosine.md",
+    "trigonometry/trigonometric-identities.md",
+    "sets-and-numbers/types-of-numbers.md",
+    "sets-and-numbers/natural-numbers.md",
     "sets-and-numbers/binomial-coefficient.md",
+    "powers-radicals-logarithms/powers.md",
+    "polynomials/binomials.md",
+    "polynomials/partial-fraction-decomposition.md",
+    "powers-radicals-logarithms/logarithms.md",
+    "powers-radicals-logarithms/radicals.md",
+    "polynomials/polynomial-division.md",
+    "polynomials/synthetic-division-method.md",
+    "polynomials/monomials.md",
+    "polynomials/adding-and-subtracting-polynomials.md",
+    "polynomials/roots-of-a-polynomial.md",
+    "polynomials/notable-products.md",
+    "polynomials/polynomials.md",
+    "polynomials/completing-the-square.md",
+    "polynomials/binomial-theorem.md",
+    "polynomials/trinomials.md",
+    "polynomials/factoring-polynomials-ac-method.md",
+    "linear-systems/rouche-capelli-theorem.md",
+    "limits/remarkable-limits.md",
+    "equations/linear-equations.md",
+    "equations/equations.md",
+    "equations/factoring-quadratic-equations.md",
+    "limits",
+    "linear-systems",
+    "vectors-and-matrices",
+    "equations",
     "trigonometry",
-    "sets-and-numbers/binomial-coefficient 1.md",
-    "sets-and-numbers/factorial.md",
     "complex-numbers",
     "algebraic-structures",
     "powers-radicals-logarithms",
     "sets-and-numbers",
-    "polynomials",
-    "Partial-fraction-decomposition copia.txt"
+    "polynomials"
   ]
 }

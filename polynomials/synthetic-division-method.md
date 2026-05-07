@@ -1,6 +1,7 @@
 # The Synthetic Division Method
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/synthetic-division/
 
 ## Introduction
 
@@ -223,7 +224,7 @@ In its usual form, the method applies to polynomials with real coefficients and 
 
 The first is that if the divisor has the form \\(x - (a + bi)\\), the method cannot be applied directly, because the procedure only handles real numbers and not complex ones.
 
-The second limitation is that dividing by \\((x - r)\\) provides you with only one quotient and one remainder. Therefore, in order to completely factor a polynomial of degree \\(n\\), one must repeat the process multiple times. 
+The second limitation is that dividing by \\((x - r)\\) provides you with only one quotient and one remainder. Therefore, in order to completely factor a polynomial of degree \\(n\\), one must repeat the process multiple times.
 
 Advancing through the iterations requires knowing a valid root, which makes finding the roots impractical for high-degree polynomials.
 

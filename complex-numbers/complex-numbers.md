@@ -3,13 +3,13 @@
 Source: algebrica.org — CC BY-NC 4.0
 https://algebrica.org/complex-numbers-introduction/
 
-## Introduction 
+## Introduction
 
 Complex numbers arise to overcome the limitations of the set of [real numbers](../types-of-numbers) \\(\mathbb{R}\\), particularly the impossibility of taking even-indexed roots of negative numbers. One major consequence of this restriction is the inability to determine the solutions of a [quadratic equation](../quadratic-equations) with a negative [discriminant](../quadratic-formula).
 
 In the set of [real numbers](../properties-of-real-numbers/) \\( \mathbb{R} \\), it is impossible to find a number whose square is \\(-1\\), since the square of any real number is always non-negative. Consequently, solving the equation \\( p(x) = x^2 + 1 = 0 \\) has no solutions in \\( \mathbb{R} \\). Indeed, this would lead to \\( x^2 = -1 \\), which is never satisfied in the set of real numbers \\( \mathbb{R} \\).
 
-Starting from this very equation, we introduce the symbol \\( i \\), known as the imaginary unit, which is defined by the property: 
+Starting from this very equation, we introduce the symbol \\( i \\), known as the imaginary unit, which is defined by the property:
 \\[ i^2 = -1 \\]
 
 In this way, the equation \\( x^2 + 1 = 0 \\) has two distinct complex roots, given by \\( \pm i \\).
@@ -53,7 +53,7 @@ The notation \\( z = a + bi \\) is thus a compact encoding of the ordered pair \
 
 - - -
 
-It remains to verify that the algebraic properties expected of a field actually hold. The verification is mechanical but worth summarising. Under addition, \\( \mathbb{C} \\) forms an abelian [group](../groups/): commutativity and associativity are inherited directly from \\( \mathbb{R} \\), the additive identity is \\( (0, 0) \\), and the additive inverse of \\( (a, b) \\) is \\( (-a, -b) \\). 
+It remains to verify that the algebraic properties expected of a field actually hold. The verification is mechanical but worth summarising. Under addition, \\( \mathbb{C} \\) forms an abelian [group](../groups/): commutativity and associativity are inherited directly from \\( \mathbb{R} \\), the additive identity is \\( (0, 0) \\), and the additive inverse of \\( (a, b) \\) is \\( (-a, -b) \\).
 
 Multiplication is also commutative and associative, as can be confirmed by direct computation, and the multiplicative identity is \\( (1, 0) \\). The distributive law holds. The only property requiring genuine attention is the existence of multiplicative inverses for nonzero elements. Given \\( (a, b) \neq (0, 0) \\), one checks that its multiplicative inverse is the following pair.
 \\[
@@ -61,7 +61,7 @@ Multiplication is also commutative and associative, as can be confirmed by direc
 \\]
 The denominator \\( a^2 + b^2 \\) is strictly positive when \\( (a, b) \neq (0, 0) \\), which ensures the formula is well defined for every nonzero complex number. The conclusion is that \\( \mathbb{C} \\), as constructed, is a field. Moreover, since \\( \mathbb{R} \\) embeds into it as a subfield, \\( \mathbb{C} \\) is an extension field of \\( \mathbb{R} \\). This is the precise mathematical sense in which the complex numbers extend the real number system.
 
-One may also observe that, as a vector space over \\( \mathbb{R} \\), the field \\( \mathbb{C} \\) has dimension two, with basis \\( \{1, i\} \\). This two-dimensionality is what makes the geometric interpretation in the complex plane so natural: the real and imaginary parts of a complex number serve as coordinates with respect to this basis. 
+One may also observe that, as a vector space over \\( \mathbb{R} \\), the field \\( \mathbb{C} \\) has dimension two, with basis \\( \{1, i\} \\). This two-dimensionality is what makes the geometric interpretation in the complex plane so natural: the real and imaginary parts of a complex number serve as coordinates with respect to this basis.
 
 The construction just described also generalises: replacing \\( \mathbb{R} \\) with an arbitrary field \\( F \\) and seeking an extension in which a chosen irreducible [polynomial](../polynomials/) has a root leads to the broader theory of field extensions, of which \\( \mathbb{C} \cong \mathbb{R}[x]/(x^2 + 1) \\) is the simplest and most important example.
 
@@ -75,8 +75,8 @@ A complex number \\( z \\) is a number of the form \\( z = a + bi \\), where \\(
 Let \\( z \\) be any complex number. The quantity \\( a \\) is referred to as the real part of \\( z \\) and is denoted by \\( \mathrm{Re}(z) \\), while \\( b \\) is called the imaginary part of \\( z \\) and is denoted by \\( \mathrm{Im}(z) \\):
 \\[
 z = a + ib \quad \rightarrow \quad
-\begin{cases} 
-\mathrm{Re}(z) = a \\\\[0.6em] 
+\begin{cases}
+\mathrm{Re}(z) = a \\\\[0.6em]
 \mathrm{Im}(z) = b \\\\
 \end{cases}
 \\]
@@ -96,7 +96,7 @@ Another representation is the [exponential form](https://algebrica.org/complex-n
 
 Due to the structure of the set \\( \mathbb{C} \\) as a Cartesian product, complex numbers can be represented geometrically in the complex plane (also known as the Gaussian or Argand plane), where the real part corresponds to the \\( x \\)-coordinate and the imaginary part corresponds to the \\( y \\)-coordinate. Thus, the complex number:
 
-\\[ z = x + iy \\] 
+\\[ z = x + iy \\]
 
 can be represented as the point \\( (x, y) \\) in the plane, which is known as the Gaussian plane (or complex plane).
 
@@ -107,24 +107,24 @@ A purely imaginary number is represented by the ordered pair \\( i = (0,1) \\).
 
 Given the complex number \\( z = a + bi \\), the conjugate of \\( z \\) is defined as the complex number:
 
-\\[ \overline{z} = a - bi \\] 
+\\[ \overline{z} = a - bi \\]
 
 \\( \overline{z} \\) is represented in the complex plane by the point symmetric to \\( z \\) with respect to the \\( x \\)-axis.
 
 Given the complex number \\( z = a + bi \\), the modulus of \\( z \\) is defined as:  
 
 \\[
-|z| = \sqrt{a^2 + b^2} 
+|z| = \sqrt{a^2 + b^2}
 \\]
 
 It represents the distance from the origin to the point \\( (a, b) \\) in the complex plane. This definition is directly derived from the [Pythagorean theorem](../pythagorean-theorem/), since the modulus corresponds to the hypotenuse of a right triangle with legs of lengths \\( |a| \\) and \\( |b| \\):
 
 \\[
 |z|^2 = a^2 + b^2
-\\] 
+\\]
 
 - - -
-## Example 
+## Example
 
 Let’s consider the complex number \\(z = 3 + 2i\\). Using the modulus formula, we substitute \\( a = 3 \\) and \\( b = 2 \\):
 
@@ -173,12 +173,12 @@ This value is consistent with the geometric position of \\( z = -1 + i \\): the 
 - - -
 ## Properties of \\(\mathbb{C}\\)
 
-The [sum and product](../complex-number-operations) of complex numbers satisfy the associative, commutative, and distributive properties, just like the set of real numbers. 
+The [sum and product](../complex-number-operations) of complex numbers satisfy the associative, commutative, and distributive properties, just like the set of real numbers.
 Associative property for sum and product. When adding or multiplying complex numbers, the way in which the numbers are grouped does not affect the result.
-\\[(z_1 + z_2) + z_3 = z_1 + (z_2 + z_3) \\] 
+\\[(z_1 + z_2) + z_3 = z_1 + (z_2 + z_3) \\]
 \\[(z_1 \cdot z_2) \cdot z_3 = z_1 \cdot (z_2 \cdot z_3) \\]
 Commutative property. The order in which two complex numbers are added or multiplied does not change the result.
-\\[z_1 + z_2 = z_2 + z_1 \\] 
+\\[z_1 + z_2 = z_2 + z_1 \\]
 \\[z_1 \cdot z_2 = z_2 \cdot z_1 \\]
 Distributive property. Multiplying a number by a sum gives the same result as multiplying each addend individually and then adding the products.
 \\[z_1 \cdot (z_2 + z_3) = z_1 \cdot z_2 + z_1 \cdot z_3 \\]
@@ -189,7 +189,7 @@ The complex number \\( 0 + 0i \\) is the additive identity in \\( \mathbb{C} \\)
 z + (0 + 0i) &= (a + bi) + (0 + 0i) \\\\[6pt]
 &= (a + 0) + (b + 0)i \\\\[6pt]
 &= a + bi \\\\[6pt]
-&= z 
+&= z
 \end{align}
 \\]
 The complex number \\( 1 + 0i \\) is the multiplicative identity in \\( \mathbb{C} \\), since for every complex number \\( z = a + bi \\), we have:
@@ -198,7 +198,7 @@ The complex number \\( 1 + 0i \\) is the multiplicative identity in \\( \mathbb{
 z \cdot (1 + 0i) &= (a + bi) \cdot (1 + 0i) \\\\[6pt]
 &= a \cdot 1 + a \cdot 0i + bi \cdot 1 + bi \cdot 0i \\\\[6pt]
 &= a + bi \\\\[6pt]
-&= z 
+&= z
 \end{align}
 \\]
 - - -

@@ -80,9 +80,9 @@ The three identities obtained, together with the original Pythagorean identity, 
 The identities:
 
 \\[\tan^2\theta + 1 = \sec^2\theta\\]
-\\[1 + \cot^2\theta = \csc^2\theta\\] 
+\\[1 + \cot^2\theta = \csc^2\theta\\]
 
-hold only where the respective divisions are defined. Dividing by \\(\cos^2\theta\\) is valid for all \\(\theta\\) that are not odd multiples of \\(\dfrac{\pi}{2}\\), since those are precisely the values at which \\(\cos\theta = 0\\) and \\(\tan\theta\\) and \\(\sec\theta\\) are undefined. 
+hold only where the respective divisions are defined. Dividing by \\(\cos^2\theta\\) is valid for all \\(\theta\\) that are not odd multiples of \\(\dfrac{\pi}{2}\\), since those are precisely the values at which \\(\cos\theta = 0\\) and \\(\tan\theta\\) and \\(\sec\theta\\) are undefined.
 
 Similarly, dividing by \\(\sin^2\theta\\) requires \\(\sin\theta \neq 0\\), which excludes all integer multiples of \\(\pi\\), where \\(\cot\theta\\) and \\(\csc\theta\\) are undefined. The original identity \\(\sin^2\theta + \cos^2\theta = 1\\), by contrast, holds for every real value of \\(\theta\\) without exception.
 
@@ -93,7 +93,7 @@ This coincidence between the [domain](../determining-the-domain-of-a-function/) 
 
 The geometric argument given above establishes the identity for acute angles, since it relies on interpreting sine and cosine as the lengths of the legs of a right triangle. This interpretation ceases to be meaningful when \\(\theta\\) is obtuse, negative, or greater than \\(2\pi\\), and a more general foundation is therefore needed.
 
-The standard approach is to define sine and cosine analytically via the unit circle. For any real number \\(\theta\\), one defines \\(\cos\theta\\) and \\(\sin\theta\\) as the coordinates of the point obtained by moving a distance \\(\theta\\) along the unit circle starting from \\((1, 0)\\), with the convention that positive values correspond to counterclockwise motion. 
+The standard approach is to define sine and cosine analytically via the unit circle. For any real number \\(\theta\\), one defines \\(\cos\theta\\) and \\(\sin\theta\\) as the coordinates of the point obtained by moving a distance \\(\theta\\) along the unit circle starting from \\((1, 0)\\), with the convention that positive values correspond to counterclockwise motion.
 
 Under this definition, the point \\((\cos\theta, \sin\theta)\\) lies on the unit circle by construction, and the equation of the unit circle is \\(x^2 + y^2 = 1\\). Substituting \\(x = \cos\theta\\) and \\(y = \sin\theta\\) yields:
 
@@ -133,20 +133,20 @@ A common requirement in calculus and mathematical analysis is to rewrite a trigo
 
 From the fundamental identity:
 
-\\[\sin^2\theta + \cos^2\theta = 1\\] 
+\\[\sin^2\theta + \cos^2\theta = 1\\]
 
 we obtain the two substitution rules:
 
 \\[\sin^2\theta = 1 - \cos^2\theta\\]
-\\[\cos^2\theta = 1 - \sin^2\theta\\] 
+\\[\cos^2\theta = 1 - \sin^2\theta\\]
 
 These allow any [polynomial](../polynomials/) expression in both sine and cosine to be reduced to a polynomial in one of them alone. For example, an expression of the form:
- 
-\\[\sin^2\theta + 2\sin\theta\cos\theta + \cos^2\theta\\] 
+
+\\[\sin^2\theta + 2\sin\theta\cos\theta + \cos^2\theta\\]
 
 can be simplified by observing that: \\(\sin^2\theta + \cos^2\theta = 1\\), leaving \\(1 + 2\sin\theta\cos\theta\\), which is recognisable as \\(1 + \sin 2\theta\\).
 
-The derived identities serve the same purpose for expressions involving the reciprocal and ratio functions. From \\(\tan^2\theta + 1 = \sec^2\theta\\) one obtains \\(\tan^2\theta = \sec^2\theta - 1\\), which is useful whenever an expression mixes \\(\tan\theta\\) and \\(\sec\theta\\) and a reduction to a single function is needed. 
+The derived identities serve the same purpose for expressions involving the reciprocal and ratio functions. From \\(\tan^2\theta + 1 = \sec^2\theta\\) one obtains \\(\tan^2\theta = \sec^2\theta - 1\\), which is useful whenever an expression mixes \\(\tan\theta\\) and \\(\sec\theta\\) and a reduction to a single function is needed.
 
 Similarly, from \\(1 + \cot^2\theta = \csc^2\theta\\) one obtains \\(\cot^2\theta = \csc^2\theta - 1\\), allowing expressions in \\(\cot\theta\\) and \\(\csc\theta\\) to be written in terms of \\(\csc\theta\\) alone.
 

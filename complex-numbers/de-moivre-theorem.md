@@ -71,7 +71,7 @@ De Moivre's Theorem states that for any integer \\( n \\) and any complex number
 z^n = r^n\bigl(\cos(n\theta) + i\sin(n\theta)\bigr)
 \\]
 
-The formula can be established by [induction](../principle-of-mathematical-induction/) on \\( n \\). The argument has two parts: 
+The formula can be established by [induction](../principle-of-mathematical-induction/) on \\( n \\). The argument has two parts:
 
 + Verifying the base case.
 + Showing that validity at step \\( n \\) forces validity at step \\( n + 1 \\).
@@ -104,7 +104,7 @@ The identity holds at step \\( n + 1 \\), which completes the induction.
 For example, squaring the complex number \\( z = re^{i\theta} \\) gives:
 
 \\[
-z^2 = (re^{i\theta})^2 = r^2 e^{i2\theta} 
+z^2 = (re^{i\theta})^2 = r^2 e^{i2\theta}
 \\]
 
 The result is a new complex number whose modulus is \\( r^2 \\) and whose argument is \\( 2\theta. \\) In geometric terms, this means the [vector](../vectors/) is stretched by a factor of \\( r^2 \\) and rotated to double its original angle.
@@ -113,7 +113,7 @@ The result is a new complex number whose modulus is \\( r^2 \\) and whose argume
 
 ## Example 2
 
-Let’s try to compute \\( z^4 \\) for the complex number \\( z = 2 + 2i \\). 
+Let’s try to compute \\( z^4 \\) for the complex number \\( z = 2 + 2i \\).
 First, we determine the modulus of \\( z \\):
 
 \\[

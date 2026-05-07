@@ -45,7 +45,7 @@ Pascal's triangle is a triangular arrangement of binomial coefficients, the coef
 Each element in row \\( n \\) and column \\( k \\) corresponds to the binomial coefficient. For example, the number at \\( n = 4, k = 2 \\) is:
 
 \\[
-\binom {4}{2} = \frac{4!}{2!(4 - 2)!} = \frac{4!}{2!2!} = \frac{24}{4} = 6 
+\binom {4}{2} = \frac{4!}{2!(4 - 2)!} = \frac{4!}{2!2!} = \frac{24}{4} = 6
 \\]
 
 And indeed, in the fourth row, the third number is 6.
@@ -55,7 +55,7 @@ And indeed, in the fourth row, the third number is 6.
 Pascal's Triangle satisfies the recurrence relation which directly follows from the triangle's construction:
 
 \\[
-\binom{n}{k} = \binom{n - 1}{k - 1} + \binom{n - 1}{k} 
+\binom{n}{k} = \binom{n - 1}{k - 1} + \binom{n - 1}{k}
 \\]
 
 - - -
@@ -71,7 +71,7 @@ For any natural number \\( n \\), there is exactly one possible way to choose no
 
 - - -
 
-The symmetry property is observed when selecting a subset of \\(k\\) elements from a set of \\(n\\) elements, with the number of ways to do this always equal to the number of ways to select the remaining \\(n-k\\) elements. This symmetry is reflected in the equivalence: 
+The symmetry property is observed when selecting a subset of \\(k\\) elements from a set of \\(n\\) elements, with the number of ways to do this always equal to the number of ways to select the remaining \\(n-k\\) elements. This symmetry is reflected in the equivalence:
 
 \\[ \binom{n}{k} = \binom{n}{n-k} \\]
 
@@ -100,7 +100,7 @@ This rule provides a recursive definition for the binomial coefficient and expla
 
 Beyond the core properties, the binomial coefficient satisfies a number of deeper identities that appear repeatedly across combinatorics, probability, and analysis. Each of them reflects a structural truth about how counting works.
 
-The row sum identity states that the sum of all binomial coefficients in 
+The row sum identity states that the sum of all binomial coefficients in
 row \\( n \\) of Pascal's triangle equals \\( 2^n \\):
 
 \\[
@@ -154,7 +154,7 @@ The definition introduced at the start of this page requires \\( n \\) and \\( k
 \binom{\alpha}{k} = \frac{\alpha(\alpha - 1)(\alpha - 2) \cdots (\alpha - k + 1)}{k!}
 \\]
 
-where \\( \alpha \in \mathbb{R} \\) and \\( k \\) remains a non-negative integer. When \\( \alpha \\) is a natural number and \\( k \leq \alpha \\), this expression reduces to the standard binomial coefficient. When \\( \alpha \\) is not a natural number or when \\( k > \alpha \\) it produces values that are no longer integers, but remain well-defined. This generalization is what allows the [binomial theorem](../binomial-theorem/) 
+where \\( \alpha \in \mathbb{R} \\) and \\( k \\) remains a non-negative integer. When \\( \alpha \\) is a natural number and \\( k \leq \alpha \\), this expression reduces to the standard binomial coefficient. When \\( \alpha \\) is not a natural number or when \\( k > \alpha \\) it produces values that are no longer integers, but remain well-defined. This generalization is what allows the [binomial theorem](../binomial-theorem/)
 to extend beyond integer exponents. For \\( |x| < 1 \\), Newton showed that:
 
 \\[
@@ -201,7 +201,7 @@ Therefore, by combining the possible selections of scientists and engineers, we 
 N = 35 \times 70 = 2450
 \\]
 
->This means that, based on our group of scientists and engineers, we can form 2,450 distinct working teams composed of 3 scientists and 4 engineers. 
+>This means that, based on our group of scientists and engineers, we can form 2,450 distinct working teams composed of 3 scientists and 4 engineers.
 
 - - -
 ## Example 2

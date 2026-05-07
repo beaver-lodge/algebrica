@@ -5,7 +5,7 @@ https://algebrica.org/complex-number-operations/
 
 ## Introduction
 
-A [complex number](../complex-numbers-introduction/) \\( z \\) is an expression of the form \\( z = a + bi \\), where \\( a \\) and \\( b \\) are [real numbers](../properties-of-real-numbers/) and \\( i \\) is the imaginary unit, characterized by the defining relation \\( i^2 = -1 \\). 
+A [complex number](../complex-numbers-introduction/) \\( z \\) is an expression of the form \\( z = a + bi \\), where \\( a \\) and \\( b \\) are [real numbers](../properties-of-real-numbers/) and \\( i \\) is the imaginary unit, characterized by the defining relation \\( i^2 = -1 \\).
 
 The [real number](../real-numbers/) \\( a \\) is called the real part of \\( z \\) and is denoted \\( \operatorname{Re}(z) \\). The real number \\( b \\) is called the imaginary part and is denoted \\( \operatorname{Im}(z) \\). The set of all complex numbers is defined as follows:
 
@@ -34,7 +34,7 @@ The set \\( \mathbb{C} \\), equipped with the addition and multiplication define
 z_1 \cdot (z_2 + z_3) = z_1 \cdot z_2 + z_1 \cdot z_3
 \\]
 
-Two structural properties distinguish \\( \mathbb{C} \\) from \\( \mathbb{R} \\). Unlike \\( \mathbb{R} \\), the field \\( \mathbb{C} \\) is not an ordered field. There is no total order on \\( \mathbb{C} \\) compatible with its field operations, and expressions such as \\( z_1 < z_2 \\) are therefore undefined for general complex numbers. 
+Two structural properties distinguish \\( \mathbb{C} \\) from \\( \mathbb{R} \\). Unlike \\( \mathbb{R} \\), the field \\( \mathbb{C} \\) is not an ordered field. There is no total order on \\( \mathbb{C} \\) compatible with its field operations, and expressions such as \\( z_1 < z_2 \\) are therefore undefined for general complex numbers.
 
 More remarkably, \\( \mathbb{C} \\) is algebraically closed. Every nonconstant [polynomial](../polynomials/) with coefficients in \\( \mathbb{C} \\) has at least one root in \\( \mathbb{C} \\). This result, known as the [fundamental theorem of algebra](../roots-of-a-polynomial/), has no analogue in \\( \mathbb{R} \\), where polynomials such as \\( x^2 + 1 \\) admit no [real roots](../roots-of-a-polynomial/).
 
@@ -82,7 +82,7 @@ From a geometric point of view, complex numbers can be interpreted as [vectors](
 
 + The vector drawn from the origin to the new tip represents the resulting complex number \\( z_1 + z_2 \\).
 
-The two constructions together provide a complete geometric interpretation of addition and subtraction in the complex plane. 
+The two constructions together provide a complete geometric interpretation of addition and subtraction in the complex plane.
 
 The difference \\( z_1 - z_2 \\) is obtained by adding \\( z_1 \\) to the additive inverse \\( -z_2 \\), whose vector is the reflection of \\( z_2 \\) through the origin. Geometrically, \\( z_1 - z_2 \\) corresponds to the vector from the tip of \\( z_2 \\) to the tip of \\( z_1 \\), when both vectors originate at the origin.
 

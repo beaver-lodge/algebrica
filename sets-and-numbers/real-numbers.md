@@ -12,7 +12,7 @@ The real numbers are introduced as a structure characterised by a combination of
 x < y \qquad x = y \qquad y < x
 \\]
 
-The order is compatible with the field operations. 
+The order is compatible with the field operations.
 
 + If \\(x < y\\), then \\(x + z < y + z\\) for every \\(z \in \mathbb{R}\\)
 + If \\(x < y\\) and \\(z > 0\\) then \\(xz < yz\\)
@@ -29,7 +29,7 @@ The real numbers admit a geometric interpretation that makes their order and com
 
 The property that distinguishes \\(\mathbb{R}\\) from \\(\mathbb{Q}\\) is completeness. It expresses the absence of gaps. Every position on the number line that could be approached by a [sequence](../sequences/) of rational numbers is actually occupied by a real number. The rational numbers, by contrast, leave the line with infinitely many holes, one for each irrational value.
 
-The formulation relies on the notion of an upper bound. A subset \\(S \subseteq \mathbb{R}\\) is said to be bounded above if there exists a real number \\(M\\) such that \\(x \leq M\\) for every \\(x \in S\\). Such a number \\(M\\) is called an upper bound of \\(S\\). When a smallest upper bound exists, it is called the supremum of \\(S\\), or least upper bound, and is denoted \\(\sup S\\). 
+The formulation relies on the notion of an upper bound. A subset \\(S \subseteq \mathbb{R}\\) is said to be bounded above if there exists a real number \\(M\\) such that \\(x \leq M\\) for every \\(x \in S\\). Such a number \\(M\\) is called an upper bound of \\(S\\). When a smallest upper bound exists, it is called the supremum of \\(S\\), or least upper bound, and is denoted \\(\sup S\\).
 
 The completeness axiom of the real numbers can be stated as follows: every non-empty subset of \\(\mathbb{R}\\) that is bounded above has a [supremum](../supremum-and-infimum/) in \\(\mathbb{R}\\). This statement is known as the least upper bound property. The rational numbers fail to satisfy it. To see why, consider the following set:
 
@@ -44,16 +44,16 @@ A symmetric notion applies to sets bounded below. A subset \\(S \subseteq \mathb
 - - -
 ## The Archimedean property
 
-A consequence of completeness is the Archimedean property of \\(\mathbb{R}\\). It states that for every real number \\(x\\), there exists a [natural number](../natural-numbers/) \\(n\\) such that \\(n > x\\). Equivalently, the set of natural numbers \\(\mathbb{N}\\) is not bounded above in \\(\mathbb{R}\\). The argument runs as follows. 
+A consequence of completeness is the Archimedean property of \\(\mathbb{R}\\). It states that for every real number \\(x\\), there exists a [natural number](../natural-numbers/) \\(n\\) such that \\(n > x\\). Equivalently, the set of natural numbers \\(\mathbb{N}\\) is not bounded above in \\(\mathbb{R}\\). The argument runs as follows.
 
-+ Suppose, for contradiction, that \\(\mathbb{N}\\) were bounded above in \\(\mathbb{R}\\). 
-+ By the completeness axiom, \\(\mathbb{N}\\) would then have a supremum that we call \\(s = \sup \mathbb{N}\\). 
-+ Since \\(s - 1 < s\\), the number \\(s - 1\\) is not an upper bound of \\(\mathbb{N}\\), so there exists \\(n \in \mathbb{N}\\) with \\(n > s - 1\\). 
++ Suppose, for contradiction, that \\(\mathbb{N}\\) were bounded above in \\(\mathbb{R}\\).
++ By the completeness axiom, \\(\mathbb{N}\\) would then have a supremum that we call \\(s = \sup \mathbb{N}\\).
++ Since \\(s - 1 < s\\), the number \\(s - 1\\) is not an upper bound of \\(\mathbb{N}\\), so there exists \\(n \in \mathbb{N}\\) with \\(n > s - 1\\).
 + It follows that \\(n + 1 > s\\). Since \\(n + 1 \in \mathbb{N}\\), this contradicts \\(s\\) being an upper bound of \\(\mathbb{N}\\).
 
 To illustrate the property concretely, consider the real number \\(x = 7.4\\). The Archimedean property guarantees the existence of a natural number greater than \\(x\\): since \\(8 > 7.4\\), the smallest such natural number is \\(n = 8\\). The result, elementary as it appears, depends on the completeness of \\(\mathbb{R}\\) and fails in ordered fields that do not satisfy it.
 
-- - - 
+- - -
 ## Dedekind cuts
 
 A Dedekind cut is a subset \\(A \subseteq \mathbb{Q}\\) satisfying three conditions: \\(A\\) is non-empty and \\(A \neq \mathbb{Q}\\). If \\(q \in A\\) and \\(p < q\\) then \\(p \in A\\), and \\(A\\) has no greatest element. The set \\(\mathbb{R}\\) is then defined as the collection of all Dedekind cuts of \\(\mathbb{Q}\\).
@@ -114,7 +114,7 @@ These operations are well-defined, meaning independent of the choice of represen
 
 The real number \\(\sqrt{2}\\), for instance, is the equivalence class of any Cauchy sequence of rationals converging to it, such as \\((1, 1.4, 1.41, 1.414, \ldots)\\). Two such sequences satisfy \\((x_n) \sim (y_n)\\) and therefore define the same real number. Completeness in this construction means that every Cauchy sequence of real numbers converges to a real number. The Dedekind and Cauchy constructions are isomorphic as complete ordered fields (they describe exactly the same mathematical object).
 
-- - - 
+- - -
 ## Consequences of completeness
 
 The rational numbers are dense in \\(\mathbb{R}\\): between any two distinct real numbers there exists a rational number. In more formal terms for every \\(x, y \in \mathbb{R}\\) with \\(x < y\\), there exists \\(q \in \mathbb{Q}\\) such that \\(x < q < y\\). This follows from the Archimedean property. Given \\(x < y\\), one finds a natural number \\(n\\) satisfying \\(n(y - x) > 1\\) and among the integers \\(m\\) with \\(m > nx\\) one can identify one for which \\(x < m/n < y\\) holds.

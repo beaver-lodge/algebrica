@@ -1,6 +1,7 @@
 # Rings
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/rings/
 
 ## Definition
 
@@ -25,20 +26,20 @@ and then cancels \\(a \cdot 0\\) from both sides using the group structure of \\
 (-a) \cdot b = a \cdot (-b) = -(a \cdot b)
 \\]
 
-In particular, \\((-1) \cdot a = -a\\) whenever \\(R\\) has a unity. These sign rules hold in any ring. 
+In particular, \\((-1) \cdot a = -a\\) whenever \\(R\\) has a unity. These sign rules hold in any ring.
 
-+ A nonzero element \\(a \in R\\) is called a zero divisor if there exists a nonzero element \\(b \in R\\) such that \\(a \cdot b = 0\\) or \\(b \cdot a = 0\\). 
++ A nonzero element \\(a \in R\\) is called a zero divisor if there exists a nonzero element \\(b \in R\\) such that \\(a \cdot b = 0\\) or \\(b \cdot a = 0\\).
 
-+ Zero divisors are a feature that distinguishes rings from fields: in a field, no nonzero element can be a zero divisor. 
++ Zero divisors are a feature that distinguishes rings from fields: in a field, no nonzero element can be a zero divisor.
 
 + A commutative ring with unity that contains no zero divisors is called an integral domain.
 
 - - -
 ## Algebraic hierarchy
 
-A [group](../groups/) is the most elementary of these structures. It consists of a set equipped with a single binary operation satisfying closure, associativity, the existence of an identity element, and the existence of inverses. 
+A [group](../groups/) is the most elementary of these structures. It consists of a set equipped with a single binary operation satisfying closure, associativity, the existence of an identity element, and the existence of inverses.
 
-A ring extends this framework by introducing a second operation, multiplication, required to be associative and to distribute over addition, but not necessarily commutative and not required to admit inverses. 
+A ring extends this framework by introducing a second operation, multiplication, required to be associative and to distribute over addition, but not necessarily commutative and not required to admit inverses.
 
 When the additional requirement that every nonzero element possess a multiplicative inverse is imposed on a commutative ring with unity, the structure becomes a [field](../fields/). The three structures thus form a chain of increasing rigidity:
 
@@ -64,10 +65,10 @@ Let \\(F\\) be a field and let \\(n\\) be a positive integer. The set \\(\mathrm
 - - -
 ## Subrings
 
-A subset \\(S\\) of a ring \\(R\\) is called a subring if \\(S\\) is itself a ring under the operations inherited from \\(R\\). A nonempty subset \\(S \subseteq R\\) is a subring of \\(R\\) if and only if it is closed under subtraction and under multiplication, that is, for all \\(a, b \in S\\) one has \\(a - b \in S\\) and \\(a \cdot b \in S\\). Closure under subtraction is equivalent to requiring that \\(S\\) be a subgroup of \\((R, +)\\), and closure under multiplication then ensures that the second operation is also well-defined on \\(S\\). Every ring \\(R\\) contains at least two subrings: 
+A subset \\(S\\) of a ring \\(R\\) is called a subring if \\(S\\) is itself a ring under the operations inherited from \\(R\\). A nonempty subset \\(S \subseteq R\\) is a subring of \\(R\\) if and only if it is closed under subtraction and under multiplication, that is, for all \\(a, b \in S\\) one has \\(a - b \in S\\) and \\(a \cdot b \in S\\). Closure under subtraction is equivalent to requiring that \\(S\\) be a subgroup of \\((R, +)\\), and closure under multiplication then ensures that the second operation is also well-defined on \\(S\\). Every ring \\(R\\) contains at least two subrings:
 
 + the trivial subring \\(\{0\}\\)
-+ \\(R\\) itself. 
++ \\(R\\) itself.
 
 Any subring other than \\(R\\) is called a proper subring.
 
@@ -76,16 +77,16 @@ As an example, the set of even integers \\(2\mathbb{Z} = \\{\ldots, -4, -2, 0, 2
 - - -
 ## Ideals
 
-Ideals are the subsets that allow the construction of quotient rings, playing a role analogous to normal subgroups in group theory. A nonempty subset \\(I \subseteq R\\) 
-is called a left ideal of \\(R\\) if it is closed under addition and under left multiplication by elements of \\(R\\), that is, for all \\(a \in I\\) and \\(r \in R\\) 
-one has \\(r \cdot a \in I\\). A right ideal is defined analogously with right multiplication. A subset that is simultaneously a left and a right ideal is called a 
+Ideals are the subsets that allow the construction of quotient rings, playing a role analogous to normal subgroups in group theory. A nonempty subset \\(I \subseteq R\\)
+is called a left ideal of \\(R\\) if it is closed under addition and under left multiplication by elements of \\(R\\), that is, for all \\(a \in I\\) and \\(r \in R\\)
+one has \\(r \cdot a \in I\\). A right ideal is defined analogously with right multiplication. A subset that is simultaneously a left and a right ideal is called a
 two-sided ideal, or simply an ideal.
 
-The set \\(n\mathbb{Z}\\) of all multiples of a fixed integer \\(n\\) is an ideal of 
-\\(\mathbb{Z}\\): for any \\(a = nk \in n\mathbb{Z}\\) and any \\(r \in \mathbb{Z}\\) 
+The set \\(n\mathbb{Z}\\) of all multiples of a fixed integer \\(n\\) is an ideal of
+\\(\mathbb{Z}\\): for any \\(a = nk \in n\mathbb{Z}\\) and any \\(r \in \mathbb{Z}\\)
 one has:
 
-\\[r \cdot a = n(rk) \in n\mathbb{Z}\\] 
+\\[r \cdot a = n(rk) \in n\mathbb{Z}\\]
 
 > Ideals are precisely the kernels of  ring homomorphisms, a fact that makes them the natural tool for constructing quotient rings and studying the structure of rings through their homomorphic images.
 
@@ -94,7 +95,7 @@ one has:
 
 A ring homomorphism is a [function](../functions/) between two rings that preserves both operations. Given two rings \\((R, +, \cdot)\\) and \\((S, \oplus, \odot)\\), a function \\(\varphi : R \to S\\) is a ring homomorphism if for all \\(a, b \in R\\):
 
-\\[\varphi(a + b) = \varphi(a) \oplus \varphi(b)\\] 
+\\[\varphi(a + b) = \varphi(a) \oplus \varphi(b)\\]
 \\[\varphi(a \cdot b) = \varphi(a) \odot \varphi(b)\\]
 
 The first condition requires that \\(\varphi\\) be a group homomorphism between the additive groups, and the second that it preserve multiplication. As a consequence, \\(\varphi\\) maps the additive identity of \\(R\\) to the additive identity of \\(S\\). If both rings are unital, one often additionally requires that \\(\varphi(1_R) = 1_S\\). The kernel and image of a ring homomorphism \\(\varphi : R \to S\\) are defined as in the case of groups:

@@ -137,7 +137,7 @@ x_3 = 1 + x_4
 
 with \\(x_2, x_4 \in \mathbb{R}\\) arbitrary. The solution set is a two-dimensional affine subspace of \\(\mathbb{R}^4\\), in agreement with the value \\(n - r = 2\\) predicted by the theorem.
 
-- - - 
+- - -
 ## Example 3
 
 The following system illustrates the case of an inconsistent system:

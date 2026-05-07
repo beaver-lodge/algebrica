@@ -3,7 +3,7 @@
 Source: algebrica.org — CC BY-NC 4.0
 https://algebrica.org/remarkable-limits/
 
-# Introduction 
+## Introduction
 
 Notable [limits](../limits/) play a central role in mathematical analysis. They are used in calculations and help describe both the local behaviour of [functions](../functions) and their behaviour at infinity. The most important cases are collected below. They include trigonometric, exponential, and logarithmic expressions, as well as standard comparisons between quantities that grow without bound and those that tend to zero.
 
@@ -159,7 +159,7 @@ Each of these relationships corresponds to the first nonzero term in the local T
 
 From an advanced perspective, remarkable limits serve as expressions of differentiability and local linearization. Every limit of the form:
 
-\\[ \lim_{x \to 0} \frac{f(x) - f(0)}{x} \\] 
+\\[ \lim_{x \to 0} \frac{f(x) - f(0)}{x} \\]
 
 corresponds to the definition of the [derivative](../derivatives/) of \\(f\\) at the origin. Classical remarkable limits represent particular cases where this derivative can be calculated explicitly and then utilised as a foundational method for addressing more complex [indeterminate forms](../indeterminate-forms/).
 

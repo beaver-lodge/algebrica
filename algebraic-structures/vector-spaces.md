@@ -1,6 +1,7 @@
 # Vector Spaces
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/vector-spaces/
 
 ## Definition
 
@@ -67,10 +68,10 @@ A set of vectors \\(\\{\mathbf{v}_1, \mathbf{v}_2, \ldots, \mathbf{v}_n\\}\\) in
 \alpha_1 \mathbf{v}_1 + \alpha_2 \mathbf{v}_2 + \cdots + \alpha_n \mathbf{v}_n = \mathbf{0}
 \\]
 
-is \\(\alpha_1 = \alpha_2 = \cdots = \alpha_n = 0\\). A set of vectors that is not linearly independent is called linearly dependent, meaning that at least one vector in the set can be expressed as a [linear combination](../linear-combinations/) of the others. A basis of \\(V\\) is a linearly independent set of vectors that spans \\(V\\), meaning every vector in \\(V\\) can be written as a linear combination of the basis vectors. The representation of any vector in terms of a given basis is unique. If 
+is \\(\alpha_1 = \alpha_2 = \cdots = \alpha_n = 0\\). A set of vectors that is not linearly independent is called linearly dependent, meaning that at least one vector in the set can be expressed as a [linear combination](../linear-combinations/) of the others. A basis of \\(V\\) is a linearly independent set of vectors that spans \\(V\\), meaning every vector in \\(V\\) can be written as a linear combination of the basis vectors. The representation of any vector in terms of a given basis is unique. If
 \\[\mathbf{v} = \alpha_1 \mathbf{v}_1 + \cdots + \alpha_n \mathbf{v}_n = \beta_1 \mathbf{v}_1 + \cdots + \beta_n \mathbf{v}_n\\]
 
-then subtracting yields: 
+then subtracting yields:
 \\[(\alpha_1 - \beta_1)\mathbf{v}_1 + \cdots + (\alpha_n - \beta_n)\mathbf{v}_n = \mathbf{0}\\]
 
 and linear independence forces \\(\alpha_k = \beta_k\\) for all \\(k\\).
@@ -111,7 +112,7 @@ Both \\(\ker(\varphi)\\) and \\(\mathrm{im}(\varphi)\\) are subspaces of \\(V\\)
 The dimension of \\(\mathrm{im}(\varphi)\\) is called the rank of \\(\varphi\\) and the dimension of \\(\ker(\varphi)\\) is called its nullity. The rank-nullity theorem is one of the central results of linear algebra and underlies the theory of [systems of linear equations](../systems-of-linear-equations/), the analysis of [matrices](../matrices/), and the classification of linear maps between finite-dimensional spaces.
 
 - - -
-## Example 
+## Example
 
 Consider the linear map \\(\varphi : \mathbb{R}^3 \to \mathbb{R}^2\\) defined by the following assignment:
 
@@ -120,13 +121,13 @@ Consider the linear map \\(\varphi : \mathbb{R}^3 \to \mathbb{R}^2\\) defined by
 \\]
 
 To verify linearity, one checks that:
- 
-\\[\varphi(\mathbf{u} + \mathbf{v}) = \varphi(\mathbf{u}) + \varphi(\mathbf{v})\\] 
-\\[\varphi(\alpha \mathbf{v}) = \alpha \varphi(\mathbf{v})\\] 
+
+\\[\varphi(\mathbf{u} + \mathbf{v}) = \varphi(\mathbf{u}) + \varphi(\mathbf{v})\\]
+\\[\varphi(\alpha \mathbf{v}) = \alpha \varphi(\mathbf{v})\\]
 
 hold for all vectors and scalars, which follows immediately from the linearity of addition and scalar multiplication in \\(\mathbb{R}^3\\). The kernel consists of all vectors \\((x, y, z)\\) satisfying \\(x + y = 0\\) and \\(y + z = 0\\), that is, \\(x = -y\\) and \\(z = -y\\). Every element of \\(\ker(\varphi)\\) therefore has the form:
 
- \\[(-y, y, -y) = y(-1, 1, -1)\\] 
+ \\[(-y, y, -y) = y(-1, 1, -1)\\]
 
 for some \\(y \in \mathbb{R}\\), so the kernel is the one-dimensional subspace spanned by \\((-1, 1, -1)\\). The image is all of \\(\mathbb{R}^2\\), since for any \\((a, b) \in \mathbb{R}^2\\) the vector \\((a, 0, b)\\) satisfies \\(\varphi(a, 0, b) = (a, b)\\), which shows that \\(\varphi\\) is surjective and thus \\(\dim \mathrm{im}(\varphi) = 2\\). The rank-nullity theorem is verified:
 

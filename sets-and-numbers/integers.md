@@ -9,7 +9,7 @@ Among the different [types of numbers](../types-of-numbers/), the integers emerg
 \\[
 \mathbb{Z} = \{\ldots,-3,-2,-1,0,1,2,3,\ldots\}
 \\]
-an infinite collection of evenly spaced points along the number [line](../lines). 
+an infinite collection of evenly spaced points along the number [line](../lines).
 
 A rigorous construction models each integer as a class of ordered pairs of natural numbers. Take pairs \\((a,b)\\) with \\(a,b \in \mathbb{N}\\) and say that two pairs belong to the same class whenever:
 \\[
@@ -60,13 +60,13 @@ Multiplication in \\(\mathbb{Z}\\) is also commutative, that is, \\(ab = ba\\) f
 ## Fundamental properties of the integers
 
 Compatibility with equality: whenever two integers satisfy \\(a = b\\), any operation applied to both sides preserves that equality. In particular:
-\\[a + c = b + c \\] 
+\\[a + c = b + c \\]
 \\[ac = bc\\]
 
 - - -
 
 Commutative laws: the order of the operands does not affect the result:
-\\[a\ + b = b + a \\] 
+\\[a\ + b = b + a \\]
 \\[ab = ba\\]
 
 - - -
@@ -75,7 +75,7 @@ Associative laws: grouping the terms does not change the outcome:
 \\[a + (b + c) = (a + b) + c \\]
 \\[a(bc) = (ab)c \\]
 
-- - - 
+- - -
 
 Distributive law: multiplication distributes over addition:
    \\[
@@ -152,7 +152,7 @@ The sum of the contributions confirms the conversion:
 
 Modular arithmetic describes how integers behave when we are interested only in their remainders after division by a fixed integer \\(n\\). Within \\(\mathbb{Z}\\), two integers are said to be equivalent [modulo](../modulo-operator/) \\(n\\) when they differ by a multiple of \\(n\\). For example, in arithmetic modulo \\(12\\), the integers \\(14\\) and \\(2\\) represent the same residue class because \\(14 - 2 = 12\\). Addition and multiplication are carried out as usual, but the final result is replaced by its remainder upon division by \\(n\\). For example:
 
-\\[7 + 9 \equiv 4 \pmod{12}\\] 
+\\[7 + 9 \equiv 4 \pmod{12}\\]
 \\[ 5 \times 7 \equiv 11 \pmod{12}\\]
 
 > In the case of \\(5 \times 7\\), the product is \\(35 = 24 + 11\\); since \\(24\\) is a multiple of \\(12\\), the value of the product modulo \\(12\\) is the remainder \\(11\\).
@@ -161,7 +161,7 @@ Modular arithmetic describes how integers behave when we are interested only in 
 
 This kind of arithmetic is widely used beyond pure mathematics. In computer science, the modulo operator is essential for extracting remainders, generating cyclic patterns, and keeping values within a bounded range. A familiar example involves the months of the year: adding \\(n\\) months is naturally handled modulo \\(12\\), since month counts wrap around after December.
 
-In many programming languages, including Java, the modulo operator is written as **%**. The following example computes the month occurring three months after October:
+In many programming languages, including Java, the modulo operator is written as `%`. The following example computes the month occurring three months after October:
 
 ````
 int month = 10; // October

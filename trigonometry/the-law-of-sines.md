@@ -102,11 +102,11 @@ Both are consistent with the given data \\(\alpha = 35^\circ\\), \\(a = 7\\), \\
 
 The algebraic analysis of the ambiguous case can be complemented by a geometric criterion that allows the number of valid triangles to be determined before performing any computation. Given the angle \\(\alpha\\) and the two sides \\(a\\) and \\(b\\), the quantity \\(b \sin(\alpha)\\) coincides with the altitude of the triangle measured from the vertex opposite to side \\(c\\). Comparing this altitude with the length of \\(a\\) is sufficient to predict how many triangles are compatible with the given data.
 
-Four situations arise depending on the relative size of \\(a\\) with respect to \\(b \sin(\alpha)\\) and \\(b\\). 
+Four situations arise depending on the relative size of \\(a\\) with respect to \\(b \sin(\alpha)\\) and \\(b\\).
 
-+ When \\(a < b \sin(\alpha)\\), the side \\(a\\) is too short to reach the base from the vertex of \\(\alpha\\), and no triangle exists. 
-+ When \\(a = b \sin(\alpha)\\), the side \\(a\\) coincides with the altitude itself, producing exactly one right triangle with the right angle at the vertex opposite to \\(c\\). 
-+ When \\(b \sin(\alpha) < a < b\\), the side \\(a\\) reaches the base in two distinct points, and two non-congruent triangles satisfy the given data. 
++ When \\(a < b \sin(\alpha)\\), the side \\(a\\) is too short to reach the base from the vertex of \\(\alpha\\), and no triangle exists.
++ When \\(a = b \sin(\alpha)\\), the side \\(a\\) coincides with the altitude itself, producing exactly one right triangle with the right angle at the vertex opposite to \\(c\\).
++ When \\(b \sin(\alpha) < a < b\\), the side \\(a\\) reaches the base in two distinct points, and two non-congruent triangles satisfy the given data.
 + When \\(a \geq b\\), only one of the two possible positions yields a geometrically consistent triangle, and the configuration is again uniquely determined.
 
 > The expression \\(b \sin(\alpha)\\) should be read as the altitude from the vertex of angle \\(\alpha\\) to the line containing side \\(c\\). This interpretation makes the criterion easy to recall, since the question reduces to whether \\(a\\) falls short of this altitude, equals it, lies between it and \\(b\\), or exceeds \\(b\\).

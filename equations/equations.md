@@ -23,9 +23,9 @@ The solution to an equation is any value of the variables that makes the equalit
 + infinitely many solutions  
 + no solution at all  
 
-> In some cases, such as with trigonometric equations, the set of solutions can be infinite because the functions involved are periodic. 
+> In some cases, such as with trigonometric equations, the set of solutions can be infinite because the functions involved are periodic.
 
-In other contexts, especially in polynomial, exponential, or transcendental equations, the solutions may not lie within the real numbers. When no real value satisfies the equation, the natural setting becomes the [complex plane](../complex-numbers-introduction/), where solutions can still exist and be meaningfully interpreted. 
+In other contexts, especially in polynomial, exponential, or transcendental equations, the solutions may not lie within the real numbers. When no real value satisfies the equation, the natural setting becomes the [complex plane](../complex-numbers-introduction/), where solutions can still exist and be meaningfully interpreted.
 
 A representative instance is the quadratic equation with negative discriminant, which admits no real roots but always has two complex conjugate solutions, as discussed in detail in the page on [quadratic equations with complex solutions](../quadratic-equations-with-complex-solutions/).
 
@@ -72,7 +72,7 @@ Among higher-degree equations, [binomial](../binomial-equations/) and [trinomial
 \frac{P(x)}{Q(x)} = 0
 \\]
 
-by transferring all terms to one side and combining them over a common denominator, with the restriction that \\( Q(x) \neq 0 \\). A standard approach is to clear denominators by multiplying both sides by the least common multiple of all denominators in the equation, thereby transforming the problem into a polynomial equation. 
+by transferring all terms to one side and combining them over a common denominator, with the restriction that \\( Q(x) \neq 0 \\). A standard approach is to clear denominators by multiplying both sides by the least common multiple of all denominators in the equation, thereby transforming the problem into a polynomial equation.
 
 > This step, however, requires careful attention: any value that makes a denominator vanish must be excluded from the solution set from the outset, and candidate solutions obtained after clearing must be checked against these excluded values.
 
@@ -85,7 +85,7 @@ by transferring all terms to one side and combining them over a common denominat
 \sqrt[n]{\\,f(x)\\,} = g(x)
 \\]
 
-where \\( f(x) \\) and \\( g(x) \\) are polynomials with real coefficients, and the standard technique consists of isolating the radical and raising both sides to the \\( n \\)-th power to eliminate it. When the equation contains more than one radical, this process must be applied iteratively. After each step, a new radical is isolated, and the procedure is repeated until none remain. Each time both sides are raised to a power, the transformation is not equivalence-preserving and may introduce extraneous solutions. 
+where \\( f(x) \\) and \\( g(x) \\) are polynomials with real coefficients, and the standard technique consists of isolating the radical and raising both sides to the \\( n \\)-th power to eliminate it. When the equation contains more than one radical, this process must be applied iteratively. After each step, a new radical is isolated, and the procedure is repeated until none remain. Each time both sides are raised to a power, the transformation is not equivalence-preserving and may introduce extraneous solutions.
 
 It is therefore necessary to verify every candidate solution in the original equation, and this requirement becomes increasingly important as the number of radicals grows.
 
@@ -94,8 +94,8 @@ It is therefore necessary to verify every candidate solution in the original equ
 
 [Absolute value equations](../absolute-value-equations/) are equations in which the unknown appears inside an [absolute value](../absolute-value/) expression. The simplest case takes the form \\( |x| = a \\), where \\( a \\) is a real constant, and its solution set depends entirely on the sign of \\( a \\).
 
-+ If \\( a > 0 \\), the equation has exactly two solutions, \\( x = a \\) and \\( x = -a \\), since both values have the same distance from the origin on the real line. 
-+ If \\( a = 0 \\), the only solution is \\( x = 0 \\), as the absolute value of a real number vanishes if and only if the number itself is zero. 
++ If \\( a > 0 \\), the equation has exactly two solutions, \\( x = a \\) and \\( x = -a \\), since both values have the same distance from the origin on the real line.
++ If \\( a = 0 \\), the only solution is \\( x = 0 \\), as the absolute value of a real number vanishes if and only if the number itself is zero.
 + If \\( a < 0 \\), the equation has no solution in \\( \mathbb{R} \\), because the absolute value is by definition non-negative and cannot equal a negative constant.
 
 > Absolute value equations that contain polynomial or rational expressions often require case analysis based on the sign of the inner expression. It is essential to verify that each candidate solution satisfies the original equation, since the case-splitting procedure may introduce extraneous solutions.

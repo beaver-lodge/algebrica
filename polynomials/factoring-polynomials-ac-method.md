@@ -1,6 +1,7 @@
 # Factoring Polynomials: AC Method
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/factoring-ac-method/
 
 ## Introduction
 
@@ -32,7 +33,7 @@ The existence of such a pair \\( (m, n) \\) is both necessary and sufficient for
 - - -
 ## The method
 
-Consider a trinomial with integer coefficients in the standard form: 
+Consider a trinomial with integer coefficients in the standard form:
 \\[ ax^2 + bx + c \\]
 
 The procedure is as follows. Compute the product \\( ac \\). Then identify integers \\( m \\) and \\( n \\), if they exist, such that \\( mn = ac \\) and \\( m + n = b \\). This amounts to enumerating the integer divisor pairs of \\( ac \\) and verifying which pair satisfies the sum condition. Once suitable values have been found, rewrite the middle term by splitting \\( bx \\) into \\( mx + nx \\):
@@ -105,20 +106,20 @@ When \\( a \neq 1 \\), the correspondence is less direct but remains present. Mu
 
 \\[ a(ax^2 + bx + c) = (ax)^2 + b(ax) + ac \\]
 
-which is a monic quadratic in the auxiliary variable \\( u = ax \\). Applying Vieta's formulas to this scaled polynomial requires identifying two numbers whose sum is \\( b \\) and whose product is \\( ac \\), which aligns precisely with the conditions imposed on \\( m \\) and \\( n \\) by the AC method. 
+which is a monic quadratic in the auxiliary variable \\( u = ax \\). Applying Vieta's formulas to this scaled polynomial requires identifying two numbers whose sum is \\( b \\) and whose product is \\( ac \\), which aligns precisely with the conditions imposed on \\( m \\) and \\( n \\) by the AC method.
 
 > The AC method can therefore be interpreted as an application of Vieta's formulas to a rescaled polynomial, with the splitting of the middle term serving as the mechanism that transfers the factorisation of the auxiliary polynomial back to the original trinomial.
 
 - - -
 ## On the irreducibility of quadratic trinomials
 
-When no integer pair \\( (m, n) \\) satisfies \\( mn = ac \\) and \\( m + n = b \\), the trinomial is irreducible over \\( \mathbb{Z} \\). This occurs precisely when the discriminant \\( \Delta = b^2 - 4ac \\) is not a perfect square integer. 
+When no integer pair \\( (m, n) \\) satisfies \\( mn = ac \\) and \\( m + n = b \\), the trinomial is irreducible over \\( \mathbb{Z} \\). This occurs precisely when the discriminant \\( \Delta = b^2 - 4ac \\) is not a perfect square integer.
 
 When \\( \Delta > 0 \\) but not a perfect square integer, the trinomial has two distinct irrational real roots and is irreducible over both \\( \mathbb{Z} \\) and \\( \mathbb{Q} \\); when \\( \Delta < 0 \\), it has two complex conjugate roots and is likewise irreducible over \\( \mathbb{R} \\).
 
 When \\( \Delta = 0 \\), the trinomial has a repeated root \\( x = -b/(2a) \\), which is rational but not necessarily an integer, so irreducibility over \\( \mathbb{Z} \\) depends on whether \\( 2a \mid b \\). The AC method, being combinatorial in nature, terminates without output once all integer divisor pairs of \\( ac \\) have been checked without success, and this exhaustion of cases constitutes a constructive proof of irreducibility over \\( \mathbb{Z} \\).
 
-- - - 
+- - -
 
 For illustration, consider the trinomial \\( 3x^2 + 5x + 4 \\). In this case, \\( a = 3 \\), \\( b = 5 \\), and \\( c = 4 \\), yielding \\( ac = 12 \\). The integer divisor pairs of \\( 12 \\) are as follows:
 
@@ -135,9 +136,9 @@ So, the trinomial admits no factorisation over \\( \mathbb{R} \\), nor over \\( 
 - - -
 ## Limitations of the AC method
 
-The AC method is effective when the coefficients are small integers and the divisor search concludes rapidly. Its computational cost grows with the number of integer divisor pairs of \\( ac \\). 
+The AC method is effective when the coefficients are small integers and the divisor search concludes rapidly. Its computational cost grows with the number of integer divisor pairs of \\( ac \\).
 
-When \\( |ac| \\) is large, the enumeration becomes laborious and the method loses its practical advantage over direct application of the quadratic formula. More fundamentally, the method is inherently tied to factorisation over \\( \mathbb{Z} \\). 
+When \\( |ac| \\) is large, the enumeration becomes laborious and the method loses its practical advantage over direct application of the quadratic formula. More fundamentally, the method is inherently tied to factorisation over \\( \mathbb{Z} \\).
 
 When the trinomial is irreducible over \\( \mathbb{Z} \\) but possesses real roots, one must resort to the [quadratic formula](../quadratic-formula/), which returns the exact roots regardless of whether the discriminant is a perfect square.
 
@@ -151,8 +152,8 @@ a(ax^2 + bx + c) &= (ax)^2 + b(ax) + ac \\\\[6pt]
 &= u^2 + bu + ac
 \end{align}\\]
 
-This polynomial factors over \\( \mathbb{Z} \\) as \\( (u + m)(u + n) \\), where \\( mn = ac \\) and \\( m + n = b \\). 
+This polynomial factors over \\( \mathbb{Z} \\) as \\( (u + m)(u + n) \\), where \\( mn = ac \\) and \\( m + n = b \\).
 
-Substituting back \\( u = ax \\) gives \\( (ax + m)(ax + n) = a^2x^2 + b(ax) + ac \\), which equals \\( a(ax^2 + bx + c) \\), confirming the identity without leaving \\( \mathbb{Z}[x] \\). 
+Substituting back \\( u = ax \\) gives \\( (ax + m)(ax + n) = a^2x^2 + b(ax) + ac \\), which equals \\( a(ax^2 + bx + c) \\), confirming the identity without leaving \\( \mathbb{Z}[x] \\).
 
 This scaling argument demonstrates that the AC method is equivalent to factoring a monic quadratic in a rescaled variable, and connects to the notion of reducibility in the polynomial [ring](../rings/) \\( \mathbb{Z}[x] \\). The trinomial \\( ax^2 + bx + c \\) is reducible in \\( \mathbb{Z}[x] \\) if and only if the integer pair \\( (m, n) \\) exists.

@@ -1,6 +1,7 @@
 # Fields
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/fields/
 
 ## Definition
 
@@ -36,9 +37,9 @@ a consequence of the axioms rather than a convention.
 - - -
 ## Algebraic hierarchy
 
-A [group](../groups/) is the most elementary of algebraic structures. It consists of a set equipped with a single binary operation satisfying closure, associativity, the existence of an identity element, and the existence of inverses. 
+A [group](../groups/) is the most elementary of algebraic structures. It consists of a set equipped with a single binary operation satisfying closure, associativity, the existence of an identity element, and the existence of inverses.
 
-When a second operation is introduced and required to distribute over the first, but without demanding that this second operation admit inverses, the result is a [ring](../rings/). The integers \\(\\mathbb{Z}\\) are the canonical example. Every [integer](../integers/) has an additive inverse, yet most integers lack a multiplicative inverse within \\(\\mathbb{Z}\\) itself, since \\(2^{-1}\\) does not belong to \\(\\mathbb{Z}\\). 
+When a second operation is introduced and required to distribute over the first, but without demanding that this second operation admit inverses, the result is a [ring](../rings/). The integers \\(\\mathbb{Z}\\) are the canonical example. Every [integer](../integers/) has an additive inverse, yet most integers lack a multiplicative inverse within \\(\\mathbb{Z}\\) itself, since \\(2^{-1}\\) does not belong to \\(\\mathbb{Z}\\).
 
 A field is obtained by imposing one further requirement on a commutative ring with unity, namely that every nonzero element be invertible with respect to multiplication. The three structures thus form a chain of increasing rigidity:
 
@@ -63,7 +64,7 @@ For any prime \\(p\\), the set \\(\\mathbb{Z}/p\\mathbb{Z} = \\{0, 1, \\ldots, p
 
 > Finite fields exist only when the number of elements is a prime power \\(p^n\\), for some prime \\(p\\) and positive integer \\(n\\). For every such prime power there exists, up to isomorphism, exactly one finite field, denoted \\(\\mathbb{F}_{p^n}\\) or \\(\\text{GF}(p^n)\\).
 
-- - - 
+- - -
 ## Subfields and field extensions
 
 A subset \\(K \\subseteq F\\) is called a subfield of \\(F\\) if \\(K\\) is itself a field under the operations inherited from \\(F\\). Equivalently, \\(K\\) is a subfield of \\(F\\) if it contains \\(0\\) and \\(1\\), and is closed under addition, negation, multiplication, and taking multiplicative inverses of nonzero elements. The rational numbers \\(\\mathbb{Q}\\) form a subfield of \\(\\mathbb{R}\\), which is itself a subfield of \\(\\mathbb{C}\\). These inclusions define a chain of fields:
@@ -102,7 +103,7 @@ A field homomorphism is a function \\(\\varphi : F \\to K\\) between two fields 
 We have that \\(\\varphi(1_F) = 1_K\\). Every field homomorphism is necessarily injective. To see this, note that its kernel is an [ideal](.../rings/) of \\(F\\):
 
 \\[\\ker(\\varphi) = \\{a \\in F : \\varphi(a) = 0\\}\\]
- 
+
 Since \\(F\\) is a field, its only ideals are \\(\\{0\\}\\) and \\(F\\) itself, and the condition \\(\\varphi(1) = 1 \\neq 0\\) rules out the second possibility. A bijective field homomorphism is called a field isomorphism. Two fields are isomorphic, written \\(F \\cong K\\), if an isomorphism between them exists. Isomorphic fields are algebraically indistinguishable: they share all properties that depend only on the field axioms.
 
 > A function is injective, or one-to-one, if distinct elements of the domain are mapped to distinct elements of the codomain: \\(\\varphi(a) = \\varphi(b)\\) implies \\(a = b\\). A function is bijective if it is both injective and surjective, meaning it is one-to-one and every element of the codomain is the image of at least one element of the domain.

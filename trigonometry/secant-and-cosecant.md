@@ -84,9 +84,9 @@ Analogous to the secant, the cosecant measures the factor by which the unit radi
 > This section examines the cosecant from a geometric point of view. For the analytical properties of the function, including domain, symmetry, limits, derivatives, and integrals, see the dedicated entry on the [cosecant function](../cosecant-function/).
 
 - - -
-## Geometric interpretation 
+## Geometric interpretation
 
-Both definitions stem from a single geometric object: the [tangent](../tangent-and-cotangent//) line drawn at \\(\text{P}\\) simultaneously determines the point \\(\text{S}\\) on the \\(x\\)-axis and the point \\(\text{Q}\\) on the \\(y\\)-axis, yielding the secant and the cosecant from one construction. 
+Both definitions stem from a single geometric object: the [tangent](../tangent-and-cotangent//) line drawn at \\(\text{P}\\) simultaneously determines the point \\(\text{S}\\) on the \\(x\\)-axis and the point \\(\text{Q}\\) on the \\(y\\)-axis, yielding the secant and the cosecant from one construction.
 
 This also makes transparent the asymmetric behaviour of the two functions. When the terminal side of \\(\theta\\) approaches a horizontal position, the tangent line at \\(\text{P}\\) becomes nearly parallel to the \\(x\\)-axis, driving \\(\text{S}\\) to infinity and making the secant unbounded, while \\(\text{Q}\\) remains well-defined. The situation is reversed when the terminal side approaches a vertical position.
 

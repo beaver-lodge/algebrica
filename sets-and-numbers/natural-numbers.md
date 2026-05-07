@@ -32,9 +32,9 @@ The axiomatic approach characterises \\(\\mathbb{N}\\)as a set that satisfies a 
 \\end{align}
 \\]
 
-+ The first axiom ensures the existence of an initial element, which acts as the starting point of the construction. 
-+ The second states that the successor operation never leaves the set, so that every natural number has a natural number as its successor. 
-+ The third excludes the possibility that \\(0\\) is itself the successor of some element, which guarantees that the sequence does not close into a cycle. 
++ The first axiom ensures the existence of an initial element, which acts as the starting point of the construction.
++ The second states that the successor operation never leaves the set, so that every natural number has a natural number as its successor.
++ The third excludes the possibility that \\(0\\) is itself the successor of some element, which guarantees that the sequence does not close into a cycle.
 + The fourth axiom, often called the injectivity of the successor, ensures that distinct natural numbers have distinct successors, so that applying \\(S\\) repeatedly generates genuinely new elements at each step.
 
 The fifth axiom, the [principle of induction](../principle-of-mathematical-induction/), asserts that any subset of \\(\\mathbb{N}\\) containing \\(0\\) and closed under the successor function must coincide with \\(\\mathbb{N}\\) itself. This is the axiom that fixes \\(\\mathbb{N}\\) as the smallest structure satisfying the previous four, and it is the conceptual engine behind every proof by induction. A detailed treatment is given in the page on the [principle of mathematical induction](../principle-of-mathematical-induction/).
@@ -97,8 +97,8 @@ Multiplication is therefore constructed on top of addition, according to the ide
 
 From the recursive definitions, together with the induction axiom, one can prove that addition and multiplication satisfy the expected algebraic properties. The proofs proceed by induction on one of the arguments, and they are a standard exercise in arithmetic.
 
-+ Addition is associative and commutative, and admits \\(0\\) as neutral element. 
-+ Multiplication is associative and commutative, admits \\(1\\) as neutral element, and distributes over addition. 
++ Addition is associative and commutative, and admits \\(0\\) as neutral element.
++ Multiplication is associative and commutative, admits \\(1\\) as neutral element, and distributes over addition.
 
 These properties are summarised as follows:
 

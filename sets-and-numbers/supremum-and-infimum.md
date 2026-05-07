@@ -27,9 +27,9 @@ Upper bounds, when they exist, are generally not unique. For example, if \\( M \
 
 - - -
 
-+ If \\( A \\) is non-empty but not bounded above, the supremum is conventionally defined as \\(\sup A = +\infty \\). 
++ If \\( A \\) is non-empty but not bounded above, the supremum is conventionally defined as \\(\sup A = +\infty \\).
 
-+ If \\( A \\) is not bounded below, the infimum is set as \\( \inf A = -\infty \\). 
++ If \\( A \\) is not bounded below, the infimum is set as \\( \inf A = -\infty \\).
 
 + For the empty set, the conventions \\( \sup \emptyset = -\infty \\) and \\( \inf \emptyset = +\infty \\) are employed.
 - - -
@@ -77,7 +77,7 @@ The supremum does not necessarily belong to the set \\( A \\). For example, cons
 
 \\[ \sup B = \max B = 1 \qquad \inf B = \min B = 0 \\]
 
-since the boundary points are included in the set. 
+since the boundary points are included in the set.
 
 - - -
 
@@ -99,11 +99,11 @@ Similarly, the infimum is defined as:
 
 \\[ \inf_{x \in D} f(x) = \inf \{ f(x) : x \in D \} \\]
 
-These quantities represent the least upper bound and greatest lower bound of the values assumed by \\( f \\), without requiring that these bounds are actually attained. 
+These quantities represent the least upper bound and greatest lower bound of the values assumed by \\( f \\), without requiring that these bounds are actually attained.
 
-+ A real number \\( s \\) is equal to \\( \sup_{x \in D} f(x) \\) if and only if \\( f(x) \leq s \\) for all \\( x \in D \\), and for every \\( \varepsilon > 0 \\), there exists \\( x \in D \\) such that \\( f(x) > s - \varepsilon \\). 
++ A real number \\( s \\) is equal to \\( \sup_{x \in D} f(x) \\) if and only if \\( f(x) \leq s \\) for all \\( x \in D \\), and for every \\( \varepsilon > 0 \\), there exists \\( x \in D \\) such that \\( f(x) > s - \varepsilon \\).
 
-+ Symmetrically, a real number \\( i \\) is equal to \\( \inf_{x \in D} f(x) \\) if and only if \\( f(x) \geq i \\) for all \\( x \in D \\), and for every \\( \varepsilon > 0 \\), there exists \\( x \in D \\) such that \\( f(x) < i + \varepsilon \\). 
++ Symmetrically, a real number \\( i \\) is equal to \\( \inf_{x \in D} f(x) \\) if and only if \\( f(x) \geq i \\) for all \\( x \in D \\), and for every \\( \varepsilon > 0 \\), there exists \\( x \in D \\) such that \\( f(x) < i + \varepsilon \\).
 
 The supremum and infimum of a function are not necessarily attained. For instance, for \\( f(x) = x \\) defined on the open interval \\( (0, 1) \\), \\( \sup_{x \in (0,1)} f(x) = 1 \\), yet there is no \\( x \in (0, 1) \\) such that \\( f(x) = 1 \\). If the supremum is attained at some point \\( x_0 \in D \\), meaning \\( f(x_0) = \sup_{x \in D} f(x) \\), it coincides with the maximum of \\( f \\) over \\( D \\). The same relationship holds between the infimum and the minimum.
 

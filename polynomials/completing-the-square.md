@@ -1,6 +1,7 @@
 ## Completing the square
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/completing-the-square/
 
 ## Introduction
 
@@ -152,7 +153,7 @@ x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}
 
 - - -
 
-The expression \\( b^2 - 4ac \\), which appears under the square root in the quadratic formula, is called the discriminant of the equation. Its sign determines the nature of the roots: 
+The expression \\( b^2 - 4ac \\), which appears under the square root in the quadratic formula, is called the discriminant of the equation. Its sign determines the nature of the roots:
 
 + When \\( b^2 - 4ac > 0 \\) the equation has two distinct real roots.
 + When \\( b^2 - 4ac = 0 \\) it has a single repeated real root.

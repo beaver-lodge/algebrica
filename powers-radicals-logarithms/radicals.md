@@ -1,6 +1,7 @@
 # Radicals
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/radicals/
 
 ## Definition of radicals
 
@@ -12,9 +13,9 @@ The value \\( a \\) is referred to as the radicand, and the [integer](../integer
 
 - - -
 
-The properties of the roots depend on whether the index is even or odd. 
+The properties of the roots depend on whether the index is even or odd.
 
-+ For even \\( n \\), the equation \\( x^n = a \\) has a real solution only if \\( a \ge 0 \\), in which case the principal root \\( \sqrt[n]{a} \\) is the non-negative solution. 
++ For even \\( n \\), the equation \\( x^n = a \\) has a real solution only if \\( a \ge 0 \\), in which case the principal root \\( \sqrt[n]{a} \\) is the non-negative solution.
 + For odd \\( n \\), the equation \\( x^n = a \\) has exactly one real solution for every real number \\( a \\), so the function \\( a \mapsto \sqrt[n]{a} \\) is defined for all \\( a \in \mathbb{R} \\).
 
 > For example, since \\( 2^3 = 8 \\), it follows that \\( \sqrt[3]{8} = 2 \\), as 2 is the unique real number whose cube equals 8. More generally, extracting an \\( n \\)-th root is the inverse operation of raising a number to the \\( n \\)-th power. Solving the equation \\( x^n = a \\) is therefore equivalent to applying the \\( n \\)-th root to \\( a \\).
@@ -157,15 +158,15 @@ Two radicals are said to be like if they share the same index and the same radic
 p\\,\sqrt[n]{a}+q\\,\sqrt[n]{a} = (p+q)\\,\sqrt[n]{a}
 \\]
 
-For example: 
-\\[ 3\sqrt{2}+5\sqrt{2} = 8\sqrt{2} \\] 
-\\[ 7\sqrt[3]{5}-2\sqrt[3]{5} = 5\sqrt[3]{5} \\] 
+For example:
+\\[ 3\sqrt{2}+5\sqrt{2} = 8\sqrt{2} \\]
+\\[ 7\sqrt[3]{5}-2\sqrt[3]{5} = 5\sqrt[3]{5} \\]
 
-Radicals with different indices or different radicands are not like radicals and cannot be combined in this way. In some cases, simplification may reveal that two radicals are in fact like. For example: 
+Radicals with different indices or different radicands are not like radicals and cannot be combined in this way. In some cases, simplification may reveal that two radicals are in fact like. For example:
 
 \\[ \sqrt{12}+\sqrt{3} = 2\sqrt{3}+\sqrt{3} = 3\sqrt{3} \\]
 
-since: 
+since:
 
 \\[ \sqrt{12} = \sqrt{4 \cdot 3} = 2\sqrt{3} \\]
 

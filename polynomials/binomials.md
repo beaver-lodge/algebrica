@@ -1,6 +1,7 @@
 # Binomials
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/binomials/
 
 ## Definition
 
@@ -35,7 +36,7 @@ The FOIL method applies exclusively to the multiplication of two binomials. For 
 
 To see a practical example of multiplying two binomials, let’s consider the expression:
 \\[(x + 3)(x + 5)\\]
-  
+
 We can apply the FOIL method, which helps recall the correct order of steps when multiplying the terms of each binomial.  
 
 + First, multiply the first terms: \\(x \cdot x = x^2\\).  
@@ -96,7 +97,7 @@ For multiplication:
 
 \\[((a + b) \cdot (c + d)) \cdot (e + f) = (a + b) \cdot ((c + d) \cdot (e + f))\\]
 
-In both cases, the grouping of the binomials can be changed freely without 
+In both cases, the grouping of the binomials can be changed freely without
 altering the overall result.
 
 - - -

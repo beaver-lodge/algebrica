@@ -84,7 +84,7 @@ A = \\begin{pmatrix}
 \\end{pmatrix}
 \\]
 
-Expanding along the first row, we compute the cofactor contribution of each element. 
+Expanding along the first row, we compute the cofactor contribution of each element.
 
 - - -
 
@@ -94,7 +94,7 @@ For \\( a_{11} = 2 \\), the minor is the determinant of the submatrix obtained b
 C_{11} = (-1)^{1+1} \\cdot \\det\\begin{pmatrix} -2 & 0 \\\\[6pt] 4 & 1 \\end{pmatrix} = (+1) \\cdot (-2-0) = -2
 \\]
 
-The contribution is \\( a_{11} \\cdot C_{11} = 2 \\cdot (-2) = -4 \\). 
+The contribution is \\( a_{11} \\cdot C_{11} = 2 \\cdot (-2) = -4 \\).
 
 - - -
 
@@ -104,7 +104,7 @@ For \\( a_{12} = 0 \\), the minor is:
 C_{12} = (-1)^{1+2} \\cdot \\det\\begin{pmatrix} 3 & 0 \\\\[6pt] 1 & 1 \\end{pmatrix} = (-1) \\cdot (3-0) = -3
 \\]
 
-The contribution is \\( a_{12} \\cdot C_{12} = 0 \\cdot (-3) = 0 \\). 
+The contribution is \\( a_{12} \\cdot C_{12} = 0 \\cdot (-3) = 0 \\).
 
 - - -
 
@@ -114,7 +114,7 @@ For \\( a_{13} = -1 \\), the minor is:
 C_{13} = (-1)^{1+3} \\cdot \\det\\begin{pmatrix} 3 & -2 \\\\[6pt] 1 & 4 \\end{pmatrix} = (+1) \\cdot (12+2) = 14
 \\]
 
-The contribution is \\( a_{13} \\cdot C_{13} = (-1) \\cdot 14 = -14 \\). 
+The contribution is \\( a_{13} \\cdot C_{13} = (-1) \\cdot 14 = -14 \\).
 
 - - -
 

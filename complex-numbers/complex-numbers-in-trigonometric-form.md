@@ -47,7 +47,7 @@ their product is another complex number whose modulus is the product of the modu
 
 \\[z_1 z_2 = r_1 r_2 [\cos(\theta_1 + \theta_2) + i \sin(\theta_1 + \theta_2)]\\]
 
-Geometrically, [multiplying two complex numbers](../complex-number-operations/) corresponds to scaling their distances from the origin by the product of their moduli and rotating the result by the sum of their arguments, combining a dilation and a rotation in a single operation. 
+Geometrically, [multiplying two complex numbers](../complex-number-operations/) corresponds to scaling their distances from the origin by the product of their moduli and rotating the result by the sum of their arguments, combining a dilation and a rotation in a single operation.
 
 > This interpretation extends naturally to integer powers through [De Moivre's theorem](../de-moivre-theorem/).
 

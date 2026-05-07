@@ -1,6 +1,7 @@
 # Adding and Subtracting Polynomials
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/adding-and-subtracting-polynomials/
 
 ## Definition and basic properties
 

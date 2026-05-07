@@ -17,7 +17,7 @@ Every other case reduces to one of these by adding or subtracting an integer mul
 
 - - -
 
-For each of these forms, two pieces of information completely determine the corresponding reduction formula: the quadrant of the angle, which fixes the signs of the four trigonometric functions, and the axis used as reference, which determines whether the reduction preserves each function or swaps it with its cofunction. 
+For each of these forms, two pieces of information completely determine the corresponding reduction formula: the quadrant of the angle, which fixes the signs of the four trigonometric functions, and the axis used as reference, which determines whether the reduction preserves each function or swaps it with its cofunction.
 
 Angles written as deviations from \\( \pi/2\\) or \\(3\pi/2\\) are measured from a vertical axis, and their reduction involves the exchange of [sine with cosine](../sine-and-cosine/) and of [tangent with cotangent](../tangent-and-cotangent/). Angles written as deviations from \\( \pi \\) or \\( 2\pi \\) are measured from a horizontal axis, and their reduction keeps each function unchanged. The table below gathers this information for all the forms considered on this page, listing the quadrant, the sign of each trigonometric function, and whether a cofunction swap occurs.
 

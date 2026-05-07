@@ -1,6 +1,8 @@
 # Logarithms
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/logarithms/
+
 ## Definition
 
 If \\(a\\) and \\(b\\) are positive [real numbers](../../properties-of-real-numbers/), where \\(a \neq 1\\), the logarithm of \\(b\\) to the base \\(a\\), denoted as \\(\log_a(b)\\), is defined as the real number \\(c\\) such that \\(a^c = b\\).
@@ -11,7 +13,7 @@ The following conditions must be satisfied:
 
 \\[a>0 \quad a \neq 1 \quad b > 0 \\]
 
-In simpler terms, the logarithm of a number refers to the exponent to which a specified base must be raised to obtain that number. Therefore, the logarithm is the inverse operation of [exponentiation](../exponential-function). 
+In simpler terms, the logarithm of a number refers to the exponent to which a specified base must be raised to obtain that number. Therefore, the logarithm is the inverse operation of [exponentiation](../exponential-function).
 
 + \\(a\\) is the base of the logarithm.
 + \\(b\\) is the argument.
@@ -96,7 +98,7 @@ The product rule states that the logarithm of a product of two numbers is equal 
 
 The quotient rule states that the logarithm of a quotient of two numbers is equal to the difference of the numerator and the denominator: \\[ \log_a{\frac{x}{y}} = \log_ax-\log_ay  \\] From the previous expression, if the numerator \\(x\\) is equal to \\(1\\), we obtain: \\[ \log_a{\frac{1}{y}} = -\log_ay \\] This means that the logarithm of the reciprocal of a number \\(\frac{1}{y}\\) is the opposite of its logarithm, and this is called the co-logarithm, indicated as: \\[\text{colog}_a{y} = -log_a{y} = \log_a{\frac{1}{y}}\\]
 
-- - - 
+- - -
 
 The property of the logarithm of a power states that the logarithm of a [power](../powers) of a number is equal to the product of the exponent and the logarithm of the base number: \\[ \log{_a}x^n = n \cdot \log{_a}x \\] This property directly follows from the properties of exponentials, as an expression like \\( x^n \\) can be understood as the result of multiplying \\( x \\) by itself \\( n \\) times.
 
@@ -153,7 +155,7 @@ This process converts the multiplicative structure, characterised by products an
 > A homomorphism is a function between two algebraic structures that preserves the operation, meaning \\(\varphi(x \star y) = \varphi(x) \circ \varphi(y)\\). Here \\( \star \\) and \\( \circ \\) denote the operations of the two algebraic structures, such as addition or multiplication.
 
 - - -
-## Example 1 
+## Example 1
 
 Let's simplify the following logarithmic expression using the properties of logarithms:  
 
@@ -203,21 +205,21 @@ Any logarithm with base \\(a\\) can be represented as the ratio of logarithms wi
 - - -
 ## Example 2
 
-Let's use a simple example to demonstrate the formula for changing the base of the logarithms. According to the definition of logarithm, the logarithm in base \\(a\\) of a number \\(x\\), denoted as \\(\log_a(x)\\), represents the exponent to which we must raise the base \\(a\\) to get the number \\(x\\). We can write the change of base property as: 
+Let's use a simple example to demonstrate the formula for changing the base of the logarithms. According to the definition of logarithm, the logarithm in base \\(a\\) of a number \\(x\\), denoted as \\(\log_a(x)\\), represents the exponent to which we must raise the base \\(a\\) to get the number \\(x\\). We can write the change of base property as:
 
 \\[\log_a(x) = \frac{\log_b(x)}{\log_b(a)}\\]
 
-Let's consider the substitution \\( y = \log_a(x) \\), which means, according to the definition of logarithm, \\( a^y = x \\). We have: 
+Let's consider the substitution \\( y = \log_a(x) \\), which means, according to the definition of logarithm, \\( a^y = x \\). We have:
 
 \\[\log_b(a^y) = \log_b(x)\\]
 
 
-For the property of the power of a logarithm, we obtain: 
+For the property of the power of a logarithm, we obtain:
 
 \\[y \cdot \log_b(a) = \log_b(x)\\]
 
 
-Now, dividing both sides by \\(\log_b(a) \\) we obtain: 
+Now, dividing both sides by \\(\log_b(a) \\) we obtain:
 
 \\[y = \frac{\log_b(x)}{\log_b(a)}\\]
 
@@ -232,7 +234,7 @@ While \\( y = \log_a(x) \\), we have proved that:
 
 \\[ \log_af(x) = g(x) \\]
 
-+ \\( a \\) is the base of the logarithm and it must meet the condition \\( a \gt 0, a\\neq 1.\\) 
++ \\( a \\) is the base of the logarithm and it must meet the condition \\( a \gt 0, a\\neq 1.\\)
 
 + The function \\(f(x)\\) serves as the argument of the logarithm and must be greater than zero. This requirement arises because the logarithm function is defined only for positive numbers.
 - - -

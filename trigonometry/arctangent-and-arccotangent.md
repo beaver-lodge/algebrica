@@ -26,7 +26,7 @@ As \\( x \\) grows without bound, the corresponding angle \\( \theta \\) approac
 
 \\[\lim_{x \to +\infty} \arctan(x) = \frac{\pi}{2}\\]
 \\[ \lim_{x \to -\infty} \arctan(x) = -\frac{\pi}{2}\\]
-  
+
 These values are never attained, since no finite value of \\( x \\) has tangent equal to \\( \pm \pi/2 \\). They correspond to the directions in which the terminal side of the angle becomes parallel to the y-axis.
 
 - - -
@@ -135,7 +135,7 @@ As \\( x \\) grows without bound, the corresponding angle \\( \theta \\) approac
 \\[ \qquad \lim_{x \to -\infty} \operatorname{arccot}(x) = \pi\\]
 
   These values are never attained, since no finite value of \\( x \\) has cotangent equal to \\( 0 \\) or \\( \pi \\); they correspond to the directions in which the terminal side of the angle becomes parallel to the x-axis.
-  
+
 - - -
 ## Reference values of arccotangent
 
@@ -167,7 +167,7 @@ The arccotangent function \\( f(x) = \operatorname{arccot}(x) \\) assigns to eac
   \operatorname{arccot}(-x) = \pi - \operatorname{arccot}(x) \quad \forall x \in \mathbb{R}
  \\]
  This follows from the fact that the cotangent is an odd function, and reflects the symmetry of the graph of \\( \operatorname{arccot} \\) with respect to the point \\( \left(0,\\, \pi/2\right) \\).
- 
+
 - - -
 ## Analytical expression of the arccotangent
 

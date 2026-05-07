@@ -1,6 +1,7 @@
 # Groups
 
 Source: algebrica.org — CC BY-NC 4.0
+https://algebrica.org/groups/
 
 ## Definition
 
@@ -29,7 +30,7 @@ This reversal of order is a consequence of the associativity axiom and is someti
 - - -
 ## Algebraic hierarchy
 
-Groups are the most elementary objects in the hierarchy of algebraic structures. A group consists of a set equipped with a single binary operation satisfying closure, associativity, the existence of an identity element, and the existence of inverses. When a second operation is introduced and required to distribute over the first, the resulting structure is a [ring](../rings/). 
+Groups are the most elementary objects in the hierarchy of algebraic structures. A group consists of a set equipped with a single binary operation satisfying closure, associativity, the existence of an identity element, and the existence of inverses. When a second operation is introduced and required to distribute over the first, the resulting structure is a [ring](../rings/).
 
 Imposing the further condition that every nonzero element be invertible under multiplication then yields a [field](../fields/). The three structures form a chain of increasing rigidity:
 
@@ -49,7 +50,7 @@ As an example, consider the group \\((\mathbb{Z}/6\mathbb{Z}, +)\\). The element
 > The modulo operator \\(a \bmod n\\) returns the remainder of the division of \\(a\\) by \\(n\\). For example, \\(7 \bmod 5 = 2\\) since \\(7 = 1 \cdot 5 + 2\\).
 
 - - -
-## Examples 
+## Examples
 
 The set \\(\mathbb{Z}\\) equipped with ordinary addition forms an abelian group. The identity element is \\(0\\), and the inverse of an integer \\(n\\) is \\(-n\\). This is an infinite group and arguably the most natural example of a group in elementary mathematics.
 
@@ -61,18 +62,18 @@ Let \\(F\\) be a field and let \\(n\\) be a positive integer. The set of all [in
 
 Given a set \\(\{1, 2, \ldots, n\}\\), a permutation is a bijection from this set to itself. The collection of all such permutations forms a group under [composition of functions](../composite-functions/), denoted \\(S_n\\) and called the symmetric group on \\(n\\) elements. The identity element is the identity permutation, and the inverse of a permutation \\(\sigma\\) is the inverse function \\(\sigma^{-1}\\). The group \\(S_n\\) has order \\(n!\\) and is non-abelian for \\(n \geq 3\\).
 
-As a concrete illustration, consider \\(S_3\\), which has order \\(6\\). Let \\(\sigma\\) be the permutation sending \\(1 \mapsto 2\\), \\(2 \mapsto 3\\), \\(3 \mapsto 1\\), and let \\(\tau\\) be the permutation sending \\(1 \mapsto 2\\), \\(2 \mapsto 1\\), \\(3 \mapsto 3\\). 
+As a concrete illustration, consider \\(S_3\\), which has order \\(6\\). Let \\(\sigma\\) be the permutation sending \\(1 \mapsto 2\\), \\(2 \mapsto 3\\), \\(3 \mapsto 1\\), and let \\(\tau\\) be the permutation sending \\(1 \mapsto 2\\), \\(2 \mapsto 1\\), \\(3 \mapsto 3\\).
 
 \\[
 \sigma = \begin{pmatrix} 1 & 2 & 3 \\\\ 2 & 3 & 1 \end{pmatrix} \qquad
 \tau = \begin{pmatrix} 1 & 2 & 3 \\\\ 2 & 1 & 3 \end{pmatrix}
 \\]
 
-To compute \\(\sigma \circ \tau\\), one applies \\(\tau\\) first and then \\(\sigma\\). 
-The element \\(1\\) is sent by \\(\tau\\) to \\(2\\), and then \\(\sigma\\) sends \\(2\\) 
-to \\(3\\), so \\(1 \mapsto 3\\). The element \\(2\\) is sent by \\(\tau\\) to \\(1\\), 
-and then \\(\sigma\\) sends \\(1\\) to \\(2\\), so \\(2 \mapsto 2\\). Finally, \\(3\\) 
-is fixed by \\(\tau\\), and \\(\sigma\\) sends \\(3\\) to \\(1\\), so \\(3 \mapsto 1\\). 
+To compute \\(\sigma \circ \tau\\), one applies \\(\tau\\) first and then \\(\sigma\\).
+The element \\(1\\) is sent by \\(\tau\\) to \\(2\\), and then \\(\sigma\\) sends \\(2\\)
+to \\(3\\), so \\(1 \mapsto 3\\). The element \\(2\\) is sent by \\(\tau\\) to \\(1\\),
+and then \\(\sigma\\) sends \\(1\\) to \\(2\\), so \\(2 \mapsto 2\\). Finally, \\(3\\)
+is fixed by \\(\tau\\), and \\(\sigma\\) sends \\(3\\) to \\(1\\), so \\(3 \mapsto 1\\).
 Thus
 
 \\[

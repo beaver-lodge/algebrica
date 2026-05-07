@@ -18,14 +18,14 @@ a_1x_1 + a_2x_2 + \ldots + a_nx_n = b
 
 The adjective linear refers to a precise algebraic property of the left-hand side. If we denote it by:
 
-\\[L(x_1, \ldots, x_n) = a_1x_1 + \ldots + a_nx_n\\] 
+\\[L(x_1, \ldots, x_n) = a_1x_1 + \ldots + a_nx_n\\]
 
 then \\(L\\) satisfies the two defining properties of linearity:
 
 \\[L(x + y) = L(x) + L(y)\\]
 \\[L(\lambda x) = \lambda \\, L(x)\\]
 
-These two identities are the algebraic counterpart of what, geometrically, makes the solution set a line, a plane, or more generally a hyperplane. The same notion of linearity underlies vector spaces and linear maps, and explains why linear equations occupy such a central role in mathematics. 
+These two identities are the algebraic counterpart of what, geometrically, makes the solution set a line, a plane, or more generally a hyperplane. The same notion of linearity underlies vector spaces and linear maps, and explains why linear equations occupy such a central role in mathematics.
 
 A linear equation may involve any finite number of unknowns. The expression \\(ax + by + c = 0\\), for example, is a linear equation in the two variables \\(x\\) and \\(y\\), with constant term \\(-c\\) once written in standard form.
 
@@ -126,7 +126,7 @@ y = \frac{c - a \lambda}{b}, \qquad \lambda \in \mathbb{R}
 
 Each value of the parameter \\(\lambda\\) produces a point of the plane lying on the line, and as \\(\lambda\\) varies over \\(\mathbb{R}\\) the entire line is described. The role of \\(\lambda\\) and that of the unknown chosen as free can be exchanged, with no effect on the geometric content of the solution.
 
-> The same equation \\(ax + by = c\\) may be rewritten in the explicit form \\(y = mx + q\\) whenever \\(b \neq 0\\), with slope \\(m = -a/b\\) and intercept \\(q = c/b\\). The implicit form is more general because it also accommodates vertical lines, those with \\(b = 0\\), which cannot be expressed in explicit form. 
+> The same equation \\(ax + by = c\\) may be rewritten in the explicit form \\(y = mx + q\\) whenever \\(b \neq 0\\), with slope \\(m = -a/b\\) and intercept \\(q = c/b\\). The implicit form is more general because it also accommodates vertical lines, those with \\(b = 0\\), which cannot be expressed in explicit form.
 
 When \\(c = 0\\) the equation becomes:
 
@@ -174,7 +174,7 @@ A direct substitution into the original equation confirms that both pairs satisf
 
 The diagram shows the line of equation \\(2x - 3y = 0\\) together with the two points just computed.
 
-The solution set of the equation \\(2x - 3y = 0\\) is the line through the origin of equation: 
+The solution set of the equation \\(2x - 3y = 0\\) is the line through the origin of equation:
 
 \\[y = \tfrac{2}{3} x\\]
 
@@ -195,7 +195,7 @@ The general solution is obtained by choosing two unknowns as free parameters. As
 z = \frac{d - a \lambda - b \mu}{c}, \qquad \lambda, \mu \in \mathbb{R}
 \\]
 
-Each pair \\((\lambda, \mu)\\) determines a point of the plane, and as the two parameters vary independently over \\(\mathbb{R}\\) the entire plane is described. The number of free parameters required, two in this case, equals the dimension of the plane, in agreement with the general principle that a single linear equation in \\(n\\) unknowns lowers the dimension by one. 
+Each pair \\((\lambda, \mu)\\) determines a point of the plane, and as the two parameters vary independently over \\(\mathbb{R}\\) the entire plane is described. The number of free parameters required, two in this case, equals the dimension of the plane, in agreement with the general principle that a single linear equation in \\(n\\) unknowns lowers the dimension by one.
 
 When \\(d = 0\\) the equation reduces to:
 
@@ -238,11 +238,11 @@ The solution set of the equation consists of all triples of the form:
 (x, y, z) = (\lambda, \\, \mu, \\, \lambda + 2 \mu), \qquad \lambda, \mu \in \mathbb{R}
 \\]
 
-Specific points of the plane are obtained by assigning numerical values to the two parameters. 
+Specific points of the plane are obtained by assigning numerical values to the two parameters.
 
 + For \\(\lambda = 1\\), \\(\mu = 0\\) we obtain \\((1, 0, 1)\\)
 + For \\(\lambda = 0\\), \\(\mu = 1\\) we obtain \\((0, 1, 2)\\)
-+ For \\(\lambda = 2\\), \\(\mu = -1\\) we obtain \\((2, -1, 0)\\). 
++ For \\(\lambda = 2\\), \\(\mu = -1\\) we obtain \\((2, -1, 0)\\).
 
 A direct substitution confirms that all three triples satisfy the original equation.
 
