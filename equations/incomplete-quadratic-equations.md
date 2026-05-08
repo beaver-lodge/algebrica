@@ -15,6 +15,9 @@ When both \\(b\\) and \\(c\\) are equal to zero, the equation reduces to:
 
 Dividing both sides by \\(a\\), which is nonzero by assumption, gives \\(x^2 = 0\\), and the only real solution is \\(x = 0\\) for every admissible value of \\(a\\).
 
+![[svg/incomplete-quadratic-equations.svg]]
+
+
 > Graphically, the equation represents a [parabola](../parabola) with its vertex at the origin \\((0, 0)\\), symmetric about the y-axis. The graph opens upward if \\(a > 0\\) and downward if \\(a < 0\\); the magnitude of \\(a\\) determines the width of the parabola. Although the equation has a single solution, the function has a double root at \\(x = 0\\): the x-axis is tangent to the parabola at the origin.
 
 - - -

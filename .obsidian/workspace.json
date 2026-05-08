@@ -197,10 +197,15 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "864fd0c13cccf3e1",
+  "active": "827e5b7ec391b92a",
   "lastOpenFiles": [
-    "equations/quadratic-equations.md",
+    "equations/svg/incomplete-quadratic-equations.svg",
     "equations/incomplete-quadratic-equations.md",
+    "equations/linear-equations.md",
+    "equations/svg",
+    "svg",
+    "cartella senza nome",
+    "equations/quadratic-equations.md",
     "complex-numbers/fundamental-inequalities-for-complex-numbers.md",
     "polynomials/vieta-formulas.md",
     "equations/linear-equations-with-parameters.md",
@@ -224,16 +229,11 @@
     "polynomials/notable-products.md",
     "polynomials/polynomials.md",
     "polynomials/completing-the-square.md",
-    "polynomials/binomial-theorem.md",
-    "polynomials/trinomials.md",
     "limits",
     "linear-systems",
     "vectors-and-matrices",
     "equations",
     "trigonometry",
-    "complex-numbers",
-    "algebraic-structures",
-    "powers-radicals-logarithms",
-    "sets-and-numbers"
+    "complex-numbers"
   ]
 }
