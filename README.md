@@ -20,7 +20,11 @@ Since I am not a native English speaker, I also rely on [Grammarly](https://www
 
 ## Repository structure
 
-Entries are published as Markdown files, downloadable and reusable. The structure mirrors the organisation of the corresponding pages on [algebrica.org](https://algebrica.org).
+In the Algebrica GitHub repository I’m progressively releasing not only all the entries in Markdown format, but also all the diagrams and illustrations as open and fully editable SVG files to improve the accessibility and reusability of the content.
+
+The SVG images can be freely modified, reused, and adapted for educational purposes, making the graphical structure of the entries fully inspectable and portable alongside the text itself.
+
+[Example page](https://github.com/antoniolupetti/algebrica/blob/main/integrals/definite-integrals.md)
 
 ## License
 
