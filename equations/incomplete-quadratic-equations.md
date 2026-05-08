@@ -3,7 +3,7 @@
 Source: algebrica.org — CC BY-NC 4.0
 https://algebrica.org/quadratic-equations/
 
-## What are incomplete quadratic equations
+## Definition
 
 A [quadratic equation](../quadratic-equations/) is considered incomplete when one or both of the terms \\(bx\\) and \\(c\\) are absent from the standard form \\(ax^2 + bx + c = 0\\), provided the term \\(ax^2\\) is present. These equations admit direct solution methods that do not require the [quadratic formula](../quadratic-formula/) or [factorization](../factoring-quadratic-equations/). 
 
