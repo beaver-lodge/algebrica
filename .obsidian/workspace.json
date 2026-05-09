@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "integration-by-substitution.md",
+                "file": "integrals/integration-by-substitution.md",
                 "mode": "source",
                 "source": false
               },
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Integration",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,8 +88,7 @@
               "title": "polynomial-division"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,12 +197,12 @@
       "bases:Crea nuova Base": false
     }
   },
-  "active": "ac4d47b006a51f5d",
+  "active": "864fd0c13cccf3e1",
   "lastOpenFiles": [
     "README.md",
     "integrals/indefinite-integrals.md",
     "vectors-and-matrices/linear-combinations.md",
-    "integration-by-substitution.md",
+    "integrals/integration-by-substitution.md",
     "integrals/definite-integrals.md",
     "LICENSE.md",
     "().md",
