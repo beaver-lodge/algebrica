@@ -28,6 +28,8 @@ Setting \\(n = 1\\) recovers the standard quadratic form \\(ax^2 + bx + c = 0.\\
 
 The equation \\(y = ax^2 + bx + c\\), with \\(a \neq 0\\), represents a [parabola](../parabola/) in the plane defined by the variables \\(x\\) and \\(y\\).
 
+![Img. 1](quadratic-equations.svg)
+
 When the coefficient \\(a > 0\\) the parabola opens upward and the vertex is a minimum of the function. When \\(a < 0\\) it opens downward and the vertex is a maximum.
 
 The real solutions of the equation \\(ax^2 + bx + c = 0\\) correspond to the points at which the parabola intersects the \\(x\\)-axis. The sign of the [discriminant](../quadratic-formula/) \\(\Delta = b^2 - 4ac\\) controls this configuration:
