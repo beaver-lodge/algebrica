@@ -124,3 +124,53 @@ Varying the parameter \\(k\\) alters the equation and, consequently, the nature 
 
 which, exactly as in the classical case, determines whether the equation admits two
 distinct real solutions, a repeated solution, or a pair of complex conjugate solutions.
+
+- - -
+## Flowchart
+
+- `Quadratic equation to solve`
+  - **IF** \\( a = 0 \\)
+    - _reduce to a linear equation_
+      the leading coefficient vanishes, so the equation is no longer quadratic: \\( bx + c = 0 \\)
+    - _solve directly_
+      \\[x = -\frac{c}{b}\\]
+  - `ELSE IF` \\( b = 0 \\) and \\( c = 0 \\)
+    - _the equation reduces to \\( ax^2 = 0 \\)_
+      both the linear and constant terms vanish, leaving a perfect square
+    - _conclude_ \\( x = 0 \\) is a double root
+  - `ELSE IF` \\( b = 0 \\) and \\( c \neq 0 \\)
+    - _the equation reduces to \\( ax^2 + c = 0 \\)_
+      the linear term vanishes; the equation is a pure quadratic in \\( x^2 \\)
+    - _solve for \\( x^2 \\)_
+      \\[x^2 = -\frac{c}{a}\\]
+    - **IF** \\( -c/a < 0 \\)
+      - _no real solutions_
+        the right-hand side is negative, so no real number satisfies the equation
+    - `ELSE`
+      - _two real solutions_
+        \\[x = \pm\sqrt{-\frac{c}{a}}\\]
+  - `ELSE IF` \\( c = 0 \\)
+    - _factor out \\( x \\)_
+      the constant term vanishes, so \\( x \\) is an immediate common factor: \\( x(ax + b) = 0 \\)
+    - _two solutions_
+      \\[x = 0 \qquad x = -\frac{b}{a}\\]
+  - `ELSE IF` the equation is easily factorable
+    - _look for two numbers \\( p \\) and \\( q \\) such that_
+      \\[p + q = b \qquad p \cdot q = ac\\]
+    - _rewrite and factor_
+      if such numbers exist, the trinomial splits cleanly: \\( ax^2 + bx + c = a(x - r_1)(x - r_2) \\)
+    - _read off the roots_ \\( x = r_1 \\) and \\( x = r_2 \\)
+  - `ELSE`
+    - _compute the discriminant_
+      when no shortcut applies, the quadratic formula is the general method: \\( \Delta = b^2 - 4ac \\)
+    - **IF** \\( \Delta < 0 \\)
+      - _no real solutions_
+        the square root of a negative number is not real; the equation has two complex conjugate roots
+    - **IF** \\( \Delta = 0 \\)
+      - _one real solution_ (double root)
+        the two roots coincide; the parabola is tangent to the \\( x \\)-axis
+        \\[x = -\frac{b}{2a}\\]
+    - **IF** \\( \Delta > 0 \\)
+      - _two distinct real solutions_
+        the parabola crosses the \\( x \\)-axis at two separate points
+        \\[x = \frac{-b \pm \sqrt{\Delta}}{2a}\\]
