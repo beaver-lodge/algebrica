@@ -174,7 +174,7 @@ The third row of \\(A \mid \mathbf{b}\\) is no longer the sum of the first two, 
 
 \\[
 \det \begin{pmatrix}
-1 & 2 & 1 \\\\\[6pt]
+1 & 2 & 1 \\\\[6pt]
 2 & 1 & 1 \\\\[6pt]
 3 & 3 & 0
 \end{pmatrix} = 3 \cdot (2 - 1) - 3 \cdot (1 - 2) + 0 = 3 + 3 = 6
